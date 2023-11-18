@@ -1,12 +1,13 @@
 import { GoMail } from "react-icons/go";
-import { FaPhone} from "react-icons/fa";
-import { FaLocationDot, FaRegCircleUser } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaPhone, FaTwitter} from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdOutlineDarkMode } from "react-icons/md";
 
 const NavbarTop = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 max-h-12">
-                {/* <div className="flex-none text-white hover:text-teal-400 cursor-pointer">
+        <div className="hidden lg:flex">
+            <div className="navbar bg-black max-h-6 px-0">
+                <div className="flex-none text-white hover:text-teal-400 cursor-pointer">
                     <div className="mx-3 flex">
                         <GoMail className="mx-4 mt-1.5 text-xl text-teal-400"></GoMail>
                         <div>
@@ -29,12 +30,17 @@ const NavbarTop = () => {
                             <h2 className="text-lg">Masterpara, Feni, Bangladesh</h2>
                         </div>
                     </div>
-                </div> */}
-                <div className="flex-1">
-                    <a className="btn btn-ghost text-xl  text-teal-400">daisyUI</a>
                 </div>
-                <div className="flex-none bg-teal-400 py-0.5">
-                    <ul className="menu menu-horizontal px-3">
+                <div className="flex-1"></div>
+
+                <div className="flex text-white mx-5">
+                    <FaTwitter className="hover:text-teal-400 cursor-pointer"></FaTwitter>
+                    <FaFacebookF className="mx-3 hover:text-teal-400 cursor-pointer"></FaFacebookF>
+                    <FaLinkedin className="hover:text-teal-400 cursor-pointer"></FaLinkedin>
+                    <FaInstagram className="mx-3 hover:text-teal-400 cursor-pointer"></FaInstagram>
+                </div>
+                <div className="flex-none bg-teal-400">
+                    <ul className="menu menu-horizontal px-9 bg-teal-500 py-2.5">
                         <li>
                             <details>
                                 <summary className="text-white text-xl">
@@ -49,10 +55,7 @@ const NavbarTop = () => {
                         </li>
                     </ul>
 
-                    <h2><FaRegCircleUser className="text-white">g</FaRegCircleUser></h2>
-                    {/* <button className="btn btn-teal">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
-                    </button> */}
+                    <h2 className="cursor-pointer"><MdOutlineDarkMode  className="text-white text-3xl mx-5">g</MdOutlineDarkMode></h2>
                 </div>
             </div>
         </div>
