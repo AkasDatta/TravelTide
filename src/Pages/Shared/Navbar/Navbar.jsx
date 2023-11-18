@@ -1,60 +1,84 @@
-import React from "react";
-import NavbarTop from "./NavbarTop/NavbarTop";
-import { FaBars } from "react-icons/fa";
-import logo from "../../../assets/logo.png";
+import { useState } from 'react';
+import { FaBars,  FaSistrix } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import NavbarTop from './NavbarTop/NavbarTop';
+import logo from '../../../assets/logo.png';
+import { FaRegCircleUser, FaBasketShopping } from "react-icons/fa6";
 
-export default function Navbar({ fixed }) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
-      <NavbarTop></NavbarTop>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3 border-b-2 border-yellow-500">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <NavbarTop></NavbarTop>
+        <div className='bg-white shadow'>
+      <nav className="p-3 md:flex md:items-center md:justify-between max-w-screen-2xl mx-auto lg:px-8 overflow-x-hidden">
+        <div className="flex justify-between items-center">
+          <Link to="/">
             <img src={logo} alt="" />
-            <button
-              className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <FaBars></FaBars>
-            </button>
-          </div>
-          <div
-            className={`lg:flex flex-grow items-center transition ${
-              navbarOpen ? "opacity-100" : "opacity-0 hidden"
-            }`}
-            id="example-navbar-danger"
+          </Link>
+
+          <span
+            className="text-3xl cursor-pointer mx-2 md:hidden block"
+            onClick={toggleMenu}
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Share</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Tweet</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Pin</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+            {menuOpen ? <FaBars/> : <FaBars/>}
+          </span>
         </div>
+
+        <ul
+          className={`md:flex md:items-center z-[+1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 ${
+            menuOpen ? 'opacity-100 top-[80px]' : 'opacity-0 top-[-400px]'
+            } transition-all ease-in duration-500`}
+        >
+
+          <li className="mx-2 my-3 md:my-0">
+            <Link to="/" className="text-sm text-gray-600  hover:text-blue-600 duration-600">
+              Home
+            </Link>
+          </li>
+          <li className="mx-2 my-3 md:my-0">
+            <Link to="/colleges" className="text-sm text-gray-600 hover:text-blue-600 duration-600">
+              Colleges
+            </Link>
+          </li>
+          <li className="mx-2 my-3 md:my-0">
+            <Link to="/admission" className="text-sm text-gray-600 hover:text-blue-600 duration-600">
+              Admission
+            </Link>
+          </li>
+          {/* {user && ( */}
+            <li className="mx-2 my-3 md:my-0">
+              <Link to="/mycollege" className="text-sm text-gray-600 hover:text-blue-600 duration-600">
+                My College
+              </Link>
+            </li>
+          {/* )} */}
+
+          {/* <div className="form-control mx-2 sm:my-5">
+            <input type="text" placeholder="Search" className="border border-gray-300 rounded-md bg-white w-36 px-2 py-1" />
+          </div> */}
+
+            <div className="mx-2 my-3 md:my-0">
+                <FaBasketShopping className='text-2xl text-gray-700'></FaBasketShopping>
+            </div>
+            <div className="mx-2 my-3 md:my-0">
+                <FaSistrix className='text-2xl'></FaSistrix>
+            </div>
+            <li className="mx-2 my-3 md:my-0">
+                <FaRegCircleUser className='text-4xl'></FaRegCircleUser>
+            </li>
+
+         
+        </ul>
       </nav>
     </div>
+    </div>
   );
-}
+};
+
+export default Navbar;
