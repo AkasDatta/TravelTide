@@ -9,25 +9,25 @@ const NavbarTop = () => {
             <div className="navbar bg-black max-h-6 px-0">
                 <div className="flex-none text-white hover:text-teal-400 cursor-pointer">
                     <div className="mx-3 flex">
-                        <GoMail className="mx-4 mt-1.5 text-xl text-teal-400"></GoMail>
+                        <GoMail className="xl:mx-4 lg:mx-1 mt-1.5 text-xl text-teal-400"></GoMail>
                         <div>
-                            <h2 className="text-lg">akasdatta.me@gmail.com</h2>
+                            <h2 className="xl:text-lg lg:text-md">akasdatta.me@gmail.com</h2>
                         </div>
                     </div>
                 </div>
                 <div className="flex-none text-white hover:text-teal-400 cursor-pointer">
                     <div className="mx-3 flex">
-                        <FaPhone className="mx-4 mt-1.5 text-xl text-teal-400"></FaPhone>
+                        <FaPhone className="xl:mx-4 lg:mx-1 mt-1.5 text-xl text-teal-400"></FaPhone>
                         <div>
-                            <h2 className="text-lg">+880 1810 318499</h2>
+                            <h2 className="xl:text-lg lg:text-md">+880 1810 318499</h2>
                         </div>
                     </div>
                 </div>
                 <div className="flex-none text-white hover:text-teal-400 cursor-pointer">
                     <div className="mx-3 flex">
-                        <FaLocationDot className="mx-4 mt-1.5 text-xl text-teal-400"></FaLocationDot>
+                        <FaLocationDot className="xl:mx-4 lg:mx-1 mt-1.5 text-xl text-teal-400"></FaLocationDot>
                         <div>
-                            <h2 className="text-lg">Masterpara, Feni, Bangladesh</h2>
+                            <h2 className="xl:text-lg lg:text-md">Masterpara, Feni, Bangladesh</h2>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const NavbarTop = () => {
                     <FaInstagram className="mx-3 hover:text-teal-400 cursor-pointer"></FaInstagram>
                 </div>
                 <div className="flex-none bg-teal-400">
-                    <ul className="menu menu-horizontal px-9 bg-teal-500 py-2.5">
+                    <ul className="menu menu-horizontal xl:px-9 lg:px-2 bg-teal-500 py-2.5">
                         <li>
                             <details>
                                 <summary className="text-white text-xl">
@@ -55,7 +55,7 @@ const NavbarTop = () => {
                         </li>
                     </ul>
 
-                    <h2 className="cursor-pointer"><MdOutlineDarkMode  className="text-white text-3xl mx-5">g</MdOutlineDarkMode></h2>
+                    <h2 className="cursor-pointer"><MdOutlineDarkMode  className="text-white text-3xl mx-5"></MdOutlineDarkMode></h2>
                 </div>
             </div>
         </div>
