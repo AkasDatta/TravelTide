@@ -10,9 +10,14 @@ const Banner = () => {
           backgroundImage: `url(${banner})`,
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-700 opacity-50"></div>
-        <div className="text-gray-200 text-4xl font-bold z-10">
-          Your Centered Text Here
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-700 opacity-60"></div>
+        <div className="text-gray-200 text-4xl font-bold z-10 flex flex-col items-center justify-center">
+          <span className='text-center'>
+            Where will you go next?
+          </span>
+          <p className='text-sm mx-20 my-5 text-center'>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium laboriosam magni vero? Nihil sapiente doloribus modi a odio deleniti! At quae illum amet praesentium, facilis libero suscipit ut tempora optio et doloremque minus. Quam?
+          </p>
         </div>
       </div>
     </div>
