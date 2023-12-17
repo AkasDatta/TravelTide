@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className={`md:flex md:items-center z-[+1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 ${menuOpen ? 'opacity-100 top-[80px]' : 'opacity-0 top-[-400px]'} transition-all ease-in duration-500`}>
                 <ul className='md:flex xl:mx-32 lg:mx-10 md:mx-8'>
                     <li className="xl:mx-7 lg:mx-3 md:mx-1 my-3 md:my-0">
-                        <Link to="/" className="lg:text-lg md:text-md text-black hover:text-teal-500 font-bold duration-600">
+                        <Link to="/" className="lg:text-lg md:text-md text-black hover:text-teal-500 font-bold duration-600 nav-link">
                         Home
                         </Link>
                     </li>
