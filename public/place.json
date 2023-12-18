@@ -1,11 +1,13 @@
 [
     {
       "id": 1,
-      "countryName": "Bangladesh",
-      "countryImage": "https://images.unsplash.com/photo-1604993497451-eed6eb271a9c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "states": [
-        {
-          "stateName": "Cox's Bazar",
+        { 
+          "name": "Bangladesh",
+          "image": "https://images.unsplash.com/photo-1604993497451-eed6eb271a9c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        { 
+          "name": "Cox's Bazar",
           "statePrice": 1100,
           "quality": 7,
           "qualityName": "Superb",
@@ -13,15 +15,15 @@
           "image": "https://images.unsplash.com/photo-1587222318667-31212ce2828d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Sylhet",
+          "name": "Sylhet",
           "statePrice": 820,
           "quality": 6.5,
           "qualityName": "Superb",
           "rating": 6.5,
-          "image": "https://images.unsplash.com/photo-1685462648479-304aa2db80ae?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "https://images.unsplash.com/photo-1549300461-11c5b94e8855?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Sundarban",
+          "name": "Sundarban",
           "statePrice": 990,
           "quality": 6.5,
           "qualityName": "Good",
@@ -32,11 +34,13 @@
     },
     {
       "id": 2,
-      "countryName": "Spain",
-      "countryImage": "https://images.unsplash.com/photo-1558642084-fd07fae5282e?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "states": [
-        {
-          "stateName": "Barcelona",
+        { 
+          "name": "Spain",
+          "image": "https://images.unsplash.com/photo-1558642084-fd07fae5282e?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        { 
+          "name": "Barcelona",
           "statePrice": 1300,
           "quality": 8.5,
           "qualityName": "Superb",
@@ -44,7 +48,7 @@
           "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Madrid",
+          "name": "Madrid",
           "statePrice": 1820,
           "quality": 6,
           "qualityName": "Good",
@@ -52,7 +56,7 @@
           "image": "https://images.unsplash.com/photo-1556798542-13bfa5d6d01e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Valencia",
+          "name": "Valencia",
           "statePrice": 1580,
           "quality": 9.5,
           "qualityName": "Superb",
@@ -63,11 +67,13 @@
     },
     {
       "id": 3,
-      "countryName": "Indonesia",
-      "countryImage": "https://images.unsplash.com/photo-1559628233-100c798642d4?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "states": [
-        {
-          "stateName": "Bali",
+        { 
+          "name": "Indonesia",
+          "image": "https://images.unsplash.com/photo-1559628233-100c798642d4?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        { 
+          "name": "Bali",
           "statePrice": 1950,
           "quality": 9,
           "qualityName": "Superb",
@@ -75,7 +81,7 @@
           "image": "https://images.unsplash.com/photo-1565970237840-d1c80ed0676a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Lombok",
+          "name": "Lombok",
           "statePrice": 1600,
           "quality": 8,
           "qualityName": "Superb",
@@ -83,7 +89,7 @@
           "image": "https://images.unsplash.com/photo-1562260466-6a54274f610b?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-          "stateName": "Denpasar",
+          "name": "Denpasar",
           "statePrice": 1100,
           "quality": 7.2,
           "qualityName": "Superb",
