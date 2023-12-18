@@ -4,8 +4,8 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div>
-      <div className="relative h-screen overflow-hidden">
+    <div className='relative'>
+      <div className="h-screen overflow-hidden flex items-center justify-center">
         <div
           className="bg-cover bg-center w-full h-full flex items-center justify-center zoom-animation"
           style={{
@@ -13,7 +13,7 @@ const Banner = () => {
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-700 opacity-60"></div>
-          <div className="text-gray-200 font-bold z-10 flex flex-col items-center justify-center pb-20">
+          <div className="text-gray-200 font-bold z-10 text-center">
             <span className='text-center banner-text py-10'>
               <h2 className='xl:text-6xl lg:text-6xl md:text-5xl text-2xl'>Where will you go next?</h2>
             </span>
@@ -23,7 +23,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    <BannerSearch></BannerSearch>
+      <div className='absolute flex items-center justify-center w-full'>
+        <BannerSearch />
+      </div>
     </div>
   );
 };

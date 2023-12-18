@@ -1,7 +1,7 @@
 
 const BannerSearch = () => {
     return (
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-4">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4" style={{ marginTop: '-50px' }}>
             <div className="container mx-auto border-3">
                 <form className="grid grid-cols-1 lg:grid-cols-7 md:grid-cols-7 sm:grid-cols-1 border-3 shadow-lg">
                         <div className="col-span-2 ">
