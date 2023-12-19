@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import holidayLogo from "../../../../assets/logoholiday.png";
+import parisLogo from "../../../../assets/parisLogo.png";
 import Rating from 'react-rating';
 import { FaRegStar, FaStar } from "react-icons/fa";
 
@@ -88,6 +89,9 @@ const HolidayCart = () => {
           </div>
         </div>
       ))}
+      <div className="flex items-center justify-center">
+        <img src={parisLogo} alt="" className="mx-auto my-auto" />
+      </div>
     </div>
   );
 };
