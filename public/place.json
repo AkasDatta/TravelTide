@@ -3,7 +3,7 @@
       "id": 1,
       "states": [
         { 
-          "name": "Bangladesh",
+          "countryName": "Bangladesh",
           "image": "https://images.unsplash.com/photo-1604993497451-eed6eb271a9c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         { 
@@ -13,7 +13,7 @@
           "qualityName": "Superb",
           "doller": "$",
           "rating": 4.9,
-          "image": "https://images.unsplash.com/photo-1587222318667-31212ce2828d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "https://images.unsplash.com/photo-1595879468810-210db077599c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
           "name": "Sylhet",
@@ -39,7 +39,7 @@
       "id": 2,
       "states": [
         { 
-          "name": "Spain",
+          "countryName": "Spain",
           "image": "https://images.unsplash.com/photo-1558642084-fd07fae5282e?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         { 
@@ -75,7 +75,7 @@
       "id": 3,
       "states": [
         { 
-          "name": "Indonesia",
+          "countryName": "Indonesia",
           "image": "https://images.unsplash.com/photo-1559628233-100c798642d4?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         { 
