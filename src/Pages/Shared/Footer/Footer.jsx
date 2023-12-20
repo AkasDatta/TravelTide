@@ -1,4 +1,4 @@
-import { FaPhone } from "react-icons/fa";
+import { FaPhone, FaRegUser } from "react-icons/fa";
 import logo from "../../../../src/assets/logo-footer.png"
 import { GoMail } from "react-icons/go";
 import { FaLocationDot } from "react-icons/fa6";
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                         <div className="flex-none text-white cursor-pointer my-6">
                                 <div>
-                                    <h2 className="xl:text-lg lg:text-md  hover:text-teal-400 text-gray-300">The Sound Of Our Jungle(Sundorbans)</h2>
+                                    <h2 className="xl:text-lg lg:text-md  hover:text-teal-400 text-gray-300">The Sound Of Our Jungle</h2>
                                     <h2 className="xl:text-lg lg:text-md  hover:text-teal-400 ">January 15, 2024</h2>
                                 </div>
                         </div>
@@ -60,8 +60,50 @@ const Footer = () => {
                         </div>
                     </div> 
                     <div>
-                    <header className="text-white text-xl my-6 font-bold">Subscribe to our Newsletter</header> 
-                        <h2 className="xl:text-lg lg:text-md text-gray-300">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</h2>
+                        <header className="text-white text-xl my-6 font-bold">Subscribe to our Newsletter</header> 
+                            <h2 className="xl:text-lg lg:text-md text-gray-300">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</h2>
+
+                            <form action="" className="mb-0 mt-6 space-y-2 mr-8">
+
+                                <div>
+                                    <label htmlFor="name" className="sr-only">name</label>
+
+                                    <div className="relative">
+                                    <input
+                                        type="text"
+                                        className="w-full border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                        placeholder="Name"
+                                    />
+
+                                    <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
+                                        <FaRegUser></FaRegUser>
+                                    </span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label htmlFor="email" className="sr-only">email</label>
+
+                                    <div className="relative">
+                                    <input
+                                        type="email"
+                                        className="w-full border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                        placeholder="Email"
+                                    />
+
+                                    <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
+                                        <GoMail></GoMail>
+                                    </span>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="submit"
+                                    className="block w-full bg-teal-400 hover:bg-white hover:text-black px-5 py-5 text-sm duration-300 font-medium text-white"
+                                >
+                                    SUBSCRIBE
+                                </button>
+                                </form>
                     </div> 
                     <div>
                     <header className="text-white text-xl my-6 font-bold">Our Instagram</header> 
