@@ -2,13 +2,16 @@ import { FaPhone } from "react-icons/fa";
 import logo from "../../../../src/assets/logo.png"
 import { GoMail } from "react-icons/go";
 import { FaLocationDot } from "react-icons/fa6";
+import img1 from "../../../../src/assets/img1-bali.avif";
+import img2 from "../../../../src/assets/img2-barca.avif";
+import img3 from "../../../../src/assets/img3-sundarban.avif";
 const Footer = () => {
     return (
         <div className="bg-[#212121]">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 py-28">
                 <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
-                        <img className="w-full" src={logo} alt="" />
+                        <img className="w-full mt-3" src={logo} alt="" />
                         <p className="mx-7 text-xl text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione ut atque!</p>
                         <div className="flex-none text-white hover:text-teal-400 cursor-pointer mt-4">
                             <div className="mx-3 flex">
@@ -30,12 +33,12 @@ const Footer = () => {
                             <div className="mx-3 flex">
                                 <FaLocationDot className="xl:mx-4 lg:mx-1 mt-1.5 text-xl"></FaLocationDot>
                                 <div>
-                                    <h2 className="xl:text-lg lg:text-md">Masterpara, Feni, Bangladesh</h2>
+                                    <h2 className="xl:text-lg lg:text-md">Feni, Bangladesh</h2>
                                 </div>
                             </div>
                         </div>
                     </div> 
-                    <div className="">
+                    <div>
                         <header className="text-white text-xl my-6 font-bold">Our Recent Posts</header> 
                         <div className="flex-none text-white cursor-pointer">
                                 <div>
@@ -63,6 +66,11 @@ const Footer = () => {
                     <div>
                     <header className="text-white text-xl my-6 font-bold">Our Instagram</header> 
                         <h2 className="xl:text-lg lg:text-md text-gray-300">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</h2>
+                        <div className="flex w-24 h-16 gap-4 mt-3">
+                            <img src={img1} alt="" />
+                            <img src={img2} alt="" />
+                            <img src={img3} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
