@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import img1 from "../../../../src/assets/img1-bali.avif";
 import img2 from "../../../../src/assets/img2-barca.avif";
 import img3 from "../../../../src/assets/img3-sundarban.avif";
+import FooterDown from "./FooterDown";
 const Footer = () => {
     return (
         <div className="bg-[#212121]">
@@ -108,13 +109,16 @@ const Footer = () => {
                     <div>
                     <header className="text-white text-xl my-6 font-bold">Our Instagram</header> 
                         <h2 className="xl:text-lg lg:text-md text-gray-300">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</h2>
-                        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 w-42 gap-4 mt-3">
+                        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 w-42 gap-4 mt-6">
                             <img src={img1} alt="" />
                             <img src={img2} alt="" />
                             <img src={img3} alt="" />
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <FooterDown></FooterDown>
             </div>
         </div>
 
