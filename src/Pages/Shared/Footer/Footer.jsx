@@ -9,7 +9,7 @@ import FooterDown from "./FooterDown";
 const Footer = () => {
     return (
         <div className="bg-[#212121]">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 py-24">
+            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 pt-24 pb-20">
                 <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <img className="w-72 mt-3" src={logo} alt="" />
@@ -117,7 +117,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="bg-black">
                 <FooterDown></FooterDown>
             </div>
         </div>
