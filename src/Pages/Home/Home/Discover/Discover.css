@@ -1,17 +1,22 @@
-/* Discover.css */
-
 .bg-container {
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 60vh; /* Default height for larger screens */
+    background-attachment: fixed;
+    height: 60vh;
 
-    /* Set height to 100vh for small devices */
     @media (max-height: 600px) {
         height: 100vh;
     }
 }
 
 .play-icon {
-    font-size: 3rem; /* Adjust the size as needed */
+    font-size: 3rem;
+    color: #07224d; 
+    transition: font-size 0.5s, color 0.3s; 
+}
+
+.play-icon:hover {
+    font-size: 4rem; 
+    color: #061131;
 }

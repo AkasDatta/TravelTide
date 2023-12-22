@@ -17,8 +17,8 @@ const Discover = () => {
                             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-blue-200 my-2 mt-6">7 Days in New Zealand</h1>
                             <p className="font-serif">Queenstown, Rotorua, Milford Sound, Aoraki / Mount Cook, Wellington, Abel Tasman National Park, Hobbiton</p>
                         </div>
-                        <div className="text-3xl text-gray-800 hover:text-gray-900 text-center mx-auto mt-12 md:mt-48 lg:mt-52 xl:mt-52">
-                            <FaPlay className="play-icon" />
+                        <div className="text-3xl text-center mx-auto mt-12 md:mt-48 lg:mt-52 xl:mt-52">
+                            <a href="https://www.youtube.com/watch?v=vtxVK3sbZ0o"><FaPlay className="play-icon" /></a>
                         </div>
 
                     </div>
