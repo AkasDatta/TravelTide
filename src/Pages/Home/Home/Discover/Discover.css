@@ -1,0 +1,12 @@
+
+.bg-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.play-icon {
+    font-size: 3rem; /* Adjust the size as needed */
+}
+

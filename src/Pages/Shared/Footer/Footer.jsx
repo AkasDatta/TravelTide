@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 pt-24 pb-20">
                 <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
-                        <img className="w-72 mt-3" src={logo} alt="" />
+                        <img className="w-60 mt-3" src={logo} alt="" />
                         <p className="mr-2 text-gray-300 text-lg"><span className="text-white hover:text-teal-400 cursor-pointer">TravelTide</span>: Effortless bookings for hotels, buses, cars, and curated shopping. Elevate your travel experience with us.</p>
                         <div className="flex-none text-white hover:text-teal-400 cursor-pointer mt-4">
                             <div className="mr-3 flex">
