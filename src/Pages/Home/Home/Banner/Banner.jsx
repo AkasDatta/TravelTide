@@ -14,11 +14,11 @@ const Banner = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-700 opacity-60"></div>
           <div className="text-gray-200 font-bold z-10 text-center">
-            <span className='text-center banner-text py-10'>
-              <h2 className='xl:text-6xl lg:text-6xl md:text-5xl text-2xl'>Where will you go next?</h2>
+            <span className='text-center banner-text'>
+              <h2 className='xl:text-6xl lg:text-6xl md:text-5xl text-4xl mb-4 xl:mx-0 lg:mx-0 md:mx-0 mx-12'>Find Next Place To Visit</h2>
             </span>
-            <p className='xl:text-xl lg:text-xl md:text-xl text-sm mx-4 my-2 text-center xl:px-80 lg:px-60 md:px-40 px-4 banner-text'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium laboriosam magni vero? Nihil sapiente doloribus modi a odio deleniti! At quae illum amet praesentium, facilis libero suscipit ut tempora optio et doloremque minus. Quam?
+            <p className='xl:text-xl lg:text-xl md:text-xl text-sm mx-4 mt-2 text-center xl:px-80 lg:px-60 md:px-32 px-12 banner-text'>
+            Discover amzaing places at exclusive deals
             </p>
           </div>
         </div>
