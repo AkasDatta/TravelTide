@@ -15,17 +15,17 @@ const HolidayCart = () => {
   }, []);
 
   return (
-    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 pt-28">
+    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-80">
       <div className="text-center">
         <div className="flex justify-center items-center">
           <img src={holidayLogo} alt="" />
         </div>
         <h1 className="font-bold text-6xl text-gray-800">Perfect Holiday</h1>
-        <p className="mt-4 text-lg text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam <br /> facere quas porro id voluptas rem ab dolore sapiente repellat nemo.</p>
+        <p className="mt-4 text-lg text-gray-700">Unlock a world of travel wonders through captivating reviews. <br /> Your dream destination is just a click away.</p>
       </div>
 
       {places.map((country, countryIndex) => (
-        <div key={country.id} className="my-8">
+        <div key={country.id} className="my-12">
           <h2 className="text-3xl font-bold mb-4">{country.countryName}</h2>
           <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-8">
             {country.states.map((state, stateIndex) => (
