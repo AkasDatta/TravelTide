@@ -1,12 +1,17 @@
+/* Discover.css */
 
 .bg-container {
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 60vh; /* Default height for larger screens */
+
+    /* Set height to 100vh for small devices */
+    @media (max-height: 600px) {
+        height: 100vh;
+    }
 }
 
 .play-icon {
     font-size: 3rem; /* Adjust the size as needed */
 }
-
