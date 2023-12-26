@@ -1,4 +1,5 @@
 import image1 from '../../../../assets/shellBanner.png';
+import plan from '../../../../assets/plan.png';
 
 const CarouselCard = () => {
   return (
@@ -8,8 +9,11 @@ const CarouselCard = () => {
       </div>
       <div className='mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 pb-32'>
         <div className="text-center">
-            <h2 className="text-3xl font-serif text-cyan-500">Plan The</h2>
-            <h2 className="text-5xl my-3 font-bold text-gray-900">Breathtaking Cities</h2>
+            <div className="flex justify-center items-center">
+                <img src={plan} alt="" />
+            </div>
+            <h2 className="text-5xl my-3 font-bold text-gray-900">Perfect Holiday</h2>
+            <p className='mt-4 text-lg text-gray-700'>Craft your perfect getaway with our custom travel plans. <br /> Explore handpicked itineraries in our Plan and Holiday section.</p>
         </div>
       </div>
     </div>
