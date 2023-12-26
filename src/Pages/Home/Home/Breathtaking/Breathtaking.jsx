@@ -2,11 +2,14 @@ import logo1 from "../../../../assets/skyscraper.png";
 import logo2 from "../../../../assets/network.png";
 import logo3 from "../../../../assets/placeholder.png";
 import logo4 from "../../../../assets/camera.png";
+import go from "../../../../assets/go.png";
 const Breathtaking = () => {
     return (
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-32">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-32 pb-20">
             <div className="text-center">
-                <h2 className="text-3xl font-serif text-cyan-500">Go & Discover</h2>
+                <div className="flex justify-center items-center">
+                    <img src={go} alt="" />
+                </div>
                 <h2 className="text-5xl my-3 font-bold text-gray-900">Breathtaking Cities</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-20 mt-20">
