@@ -36,7 +36,7 @@ const HolidayCart = () => {
                      <img
                        alt={state.name}
                        src={state.image}
-                       className="absolute inset-0 h-full w-full object-cover transition duration-1000 group-hover:scale-105 sm:h-96"
+                       className="absolute inset-0 h-full w-full md:h-96 lg:h-96 lg:w-full xl:h-96 object-cover transition duration-1000 group-hover:scale-105"
                      />
                      <div className="relative pt-32 md:pt-36 lg:pt-48 xl:pt-32">
                        <h2 className="mx-auto text-center text-4xl mb-12 md:mb-16 xl:mb-16 text-white font-bold">{state.countryName}</h2>

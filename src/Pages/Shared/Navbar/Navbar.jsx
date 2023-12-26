@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='bg-white shadow'>
       <nav className="p-4 md:flex md:items-center md:justify-between max-w-screen-2xl mx-auto xl:px-4 lg:px-2 overflow-x-hidden">
         <div className="flex justify-between items-center">
-          <Link to="/" className='my-4 w-64 lg:w-56 md:w-32'>
+          <Link to="/" className=' w-64 lg:w-56 md:w-32'>
             <img src={logo} alt="" />
           </Link>
 
