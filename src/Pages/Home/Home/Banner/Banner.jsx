@@ -5,9 +5,9 @@ import './Banner.css';
 const Banner = () => {
   return (
     <div className='relative'>
-      <div className="h-screen overflow-hidden flex items-center justify-center">
+      <div className=" overflow-hidden flex items-center justify-center">
         <div
-          className="bg-cover bg-center w-full h-full flex items-center justify-center zoom-animation"
+          className="bg-cover bg-center w-full h-96 sm:h-96 md:h-96 lg:h-96 xl:h-96 flex items-center justify-center zoom-animation"
           style={{
             backgroundImage: `url(${banner})`,
           }}
