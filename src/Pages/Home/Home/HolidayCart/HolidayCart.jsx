@@ -15,7 +15,7 @@ const HolidayCart = () => {
   }, []);
 
   return (
-    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-80">
+    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-32 pt-80">
       <div className="text-center">
         <div className="flex justify-center items-center">
           <img src={holidayLogo} alt="" />
