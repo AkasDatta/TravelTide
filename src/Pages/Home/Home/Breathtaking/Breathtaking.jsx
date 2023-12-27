@@ -5,7 +5,7 @@ import logo4 from "../../../../assets/camera.png";
 import go from "../../../../assets/go.png";
 const Breathtaking = () => {
     return (
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-32 pb-20">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pt-28 lg:pt-28 md:pt-28 pt-32 pb-20 md:pb-10 lg:pb-10 xl:pb-10">
             <div className="text-center">
                 <div className="flex justify-center items-center">
                     <img src={go} alt="" />

@@ -70,7 +70,7 @@ const CarouselCard = () => {
         <img src={image1} alt="" className="mx-auto my-0" />
       </div>
       <div className='pb-32'>
-        <div className="text-center">
+        <div className="text-center pb-20">
             <div className="flex justify-center items-center">
                 <img src={plan} alt="" />
             </div>
@@ -106,8 +106,8 @@ const CarouselCard = () => {
                 </div>
             </div>
             <div className="relative mx-6 my-8">
-            <h2 className="block text-2xl font-bold hover:text-teal-400 cursor-pointer">{state.name}</h2>
-                <h2 className="text-lg my-4">{state.description}</h2>
+            <h2 className="block text-xl font-bold hover:text-teal-400 cursor-pointer">{state.name}</h2>
+                <h2 className="text-sm my-4">{state.description}</h2>
                 <div className="">
                       <div className="flex items-center justify-between  font-bold">
                         <div className="flex">
