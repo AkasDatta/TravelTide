@@ -35,7 +35,7 @@ const CarouselCard = () => {
             <img
               src={state.image}
               alt={state.name}
-              className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+              className="h-64 w-full object-cover transition duration-500 hover:scale-105 sm:h-72 cursor-pointer"
             />
             <div className=" bg-teal-400">
                 <div className="flex items-center justify-between font-bold mx-6">
@@ -56,7 +56,7 @@ const CarouselCard = () => {
                 </div>
             </div>
             <div className="relative mx-6 my-8">
-            <h2 className="block text-2xl font-bold">{state.name}</h2>
+            <h2 className="block text-2xl font-bold hover:text-teal-400 cursor-pointer">{state.name}</h2>
                 <h2 className="text-lg my-4">{state.description}</h2>
                 <div className="">
                       <div className="flex items-center justify-between  font-bold">
