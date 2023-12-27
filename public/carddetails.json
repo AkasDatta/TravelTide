@@ -6,6 +6,7 @@
       "name": "Cityscape at Sunset",
       "description": "A stunning view of the city skyline during sunset.",
       "dollar": 150,
+      "dollarSign":"$",
       "rating": 4.8,
       "quality_name": "Superb"
     },
@@ -16,6 +17,7 @@
       "name": "Eiffel Tower",
       "description": "Iconic shot of the Eiffel Tower against a clear blue sky.",
       "dollar": 200,
+      "dollarSign":"$",
       "rating": 4.5,
       "quality_name": "Good"
     },
@@ -26,6 +28,7 @@
       "name": "Traditional Tea Ceremony",
       "description": "Capturing the elegance of a traditional Japanese tea ceremony.",
       "dollar": 120,
+      "dollarSign":"$",
       "rating": 4.7,
       "quality_name": "Superb"
     },
@@ -36,6 +39,7 @@
       "name": "Carnival Celebration",
       "description": "Vibrant colors and lively atmosphere during the Carnival celebration.",
       "dollar": 180,
+      "dollarSign":"$",
       "rating": 4.6,
       "quality_name": "Better"
     },
@@ -46,6 +50,7 @@
       "name": "Sydney Opera House",
       "description": "A night view of the iconic Sydney Opera House illuminated by lights.",
       "dollar": 250,
+      "dollarSign":"$",
       "rating": 4.9,
       "quality_name": "Best"
     },
@@ -56,6 +61,7 @@
       "name": "Sagrada Familia",
       "description": "Architectural marvel of the Sagrada Familia under a clear blue sky.",
       "dollar": 190,
+      "dollarSign":"$",
       "rating": 4.8,
       "quality_name": "Superb"
     },
@@ -66,6 +72,7 @@
       "name": "Table Mountain Hike",
       "description": "Adventurous hike showcasing the beauty of Table Mountain.",
       "dollar": 170,
+      "dollarSign":"$",
       "rating": 4.4,
       "quality_name": "Good"
     },
@@ -76,6 +83,7 @@
       "name": "Venetian Canal",
       "description": "Charming canal in Venice with traditional gondolas.",
       "dollar": 210,
+      "dollarSign":"$",
       "rating": 4.7,
       "quality_name": "Better"
     },
@@ -86,6 +94,7 @@
       "name": "Market Bazaar",
       "description": "Bustling market scene with vibrant colors and exotic goods.",
       "dollar": 160,
+      "dollarSign":"$",
       "rating": 4.6,
       "quality_name": "Better"
     },
@@ -96,6 +105,7 @@
       "name": "Grand Palace",
       "description": "The majestic Grand Palace in the heart of Bangkok.",
       "dollar": 220,
+      "dollarSign":"$",
       "rating": 4.9,
       "quality_name": "Best"
     },
@@ -106,6 +116,7 @@
         "name": "Gardens by the Bay",
         "description": "The iconic Supertree Grove at Gardens by the Bay in Singapore.",
         "dollar": 250,
+        "dollarSign":"$",
         "rating": 4.7,
         "quality_name": "Better"
     },
@@ -116,6 +127,7 @@
         "name": "Taipei 101",
         "description": "Dazzling night view of Taipei 101, one of the world's tallest skyscrapers.",
         "dollar": 200,
+        "dollarSign":"$",
         "rating": 4.8,
         "quality_name": "Superb"
       }
