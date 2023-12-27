@@ -4,9 +4,21 @@ import Rating from 'react-rating';
 import { useEffect, useState } from 'react';
 import { FaRegStar, FaStar, FaUser } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+
 
 const CarouselCard = () => {
   const [card, setCard] = useState([]);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 5
+  };
 
   useEffect(() => {
     fetch('/public/carddetails.json')
@@ -21,7 +33,7 @@ const CarouselCard = () => {
       <div className="flex items-center justify-center">
         <img src={image1} alt="" className="mx-auto my-0" />
       </div>
-      <div className='mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 pb-32'>
+      <div className='pb-32'>
         <div className="text-center">
             <div className="flex justify-center items-center">
                 <img src={plan} alt="" />
@@ -30,8 +42,9 @@ const CarouselCard = () => {
             <p className='mt-4 text-lg text-gray-700'>Craft your perfect getaway with our custom travel plans. <br /> Explore handpicked itineraries in our Plan and Holiday section.</p>
         </div>
         <div>
+        <Slider {...settings}>
         {card.map((state, index) => (
-          <div href="#" className="group relative block overflow-hidden" key={index}>
+          <div href="#" className="group relative block overflow-hidden p-2" key={index}>
             <img
               src={state.image}
               alt={state.name}
@@ -81,6 +94,7 @@ const CarouselCard = () => {
               </div>    
           </div>
           ))}
+              </Slider>
         </div>
       </div>
     </div>
