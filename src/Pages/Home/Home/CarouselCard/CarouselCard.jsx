@@ -2,7 +2,8 @@ import image1 from '../../../../assets/shellBanner.png';
 import plan from '../../../../assets/plan.png';
 import Rating from 'react-rating';
 import { useEffect, useState } from 'react';
-import { FaRegStar, FaStar } from 'react-icons/fa';
+import { FaRegStar, FaStar, FaUser } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
 
 const CarouselCard = () => {
   const [card, setCard] = useState([]);
@@ -30,15 +31,33 @@ const CarouselCard = () => {
         </div>
         <div>
         {card.map((state, index) => (
-          <a href="#" className="group relative block overflow-hidden" key={index}>
+          <div href="#" className="group relative block overflow-hidden" key={index}>
             <img
               src={state.image}
-              alt=""
+              alt={state.name}
               className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
             />
-            <div className="relative pt-32 sm:pt-48 lg:pt-48">
-            <h2 className="block text-2xl font-bold ">{state.name}</h2>
-                <h2 className="text-xl">{state.description}</h2>
+            <div className=" bg-teal-400">
+                <div className="flex items-center justify-between font-bold mx-6">
+                    <div className="flex gap-6 text-white my-5">
+                        <div className='flex gap-2'>
+                          <div className='mt-1'>
+                            <FaUser></FaUser>
+                          </div>
+                          {state.people_quantity}+
+                        </div>
+                        <div className='flex gap-2'>
+                          <div className='mt-1'>
+                            <FaLocationDot></FaLocationDot>
+                          </div>
+                          {state.location}
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+            <div className="relative mx-6 my-8">
+            <h2 className="block text-2xl font-bold">{state.name}</h2>
+                <h2 className="text-lg my-4">{state.description}</h2>
                 <div className="">
                       <div className="flex items-center justify-between  font-bold">
                         <div className="flex gap-2">
@@ -60,7 +79,7 @@ const CarouselCard = () => {
                     </div>
                 </div>
               </div>    
-          </a>
+          </div>
           ))}
         </div>
       </div>
