@@ -17,7 +17,43 @@ const CarouselCard = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 5
+    slidesToScroll: 5,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   useEffect(() => {
@@ -44,7 +80,8 @@ const CarouselCard = () => {
         <div>
         <Slider {...settings}>
         {card.map((state, index) => (
-          <div href="#" className="group relative block overflow-hidden p-2" key={index}>
+          <div key={index} className='p-2'>
+            <div href="#" className="group relative block overflow-hidden shadow-xl">
             <img
               src={state.image}
               alt={state.name}
@@ -52,14 +89,14 @@ const CarouselCard = () => {
             />
             <div className=" bg-teal-400">
                 <div className="flex items-center justify-between font-bold mx-6">
-                    <div className="flex gap-6 text-white my-5">
-                        <div className='flex gap-2'>
+                    <div className="flex gap-3 text-white my-5">
+                        <div className='flex gap-1'>
                           <div className='mt-1'>
                             <FaUser></FaUser>
                           </div>
                           {state.people_quantity}+
                         </div>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-1'>
                           <div className='mt-1'>
                             <FaLocationDot></FaLocationDot>
                           </div>
@@ -73,25 +110,26 @@ const CarouselCard = () => {
                 <h2 className="text-lg my-4">{state.description}</h2>
                 <div className="">
                       <div className="flex items-center justify-between  font-bold">
-                        <div className="flex gap-2">
+                        <div className="flex">
                             <p>
                             <Rating
                                 placeholderRating={state.rating}
                                 readonly
                                 emptySymbol={<FaRegStar></FaRegStar>}
-                                placeholderSymbol={<FaStar className='text-danger'></FaStar>}
+                                placeholderSymbol={<FaStar></FaStar>}
                                 fullSymbol={<FaStar></FaStar>}
                             ></Rating>{' '}
                             </p>
-                              <p>{state.rating}</p>
-                              <p>{state.quality_name}</p>
+                              <p className='mx-1'>{state.rating}</p>
+                              <p className='mx-2'>{state.quality_name}</p>
                           </div>
-                          <div className="text-right text-xl">
+                          <div className="text-right">
                               <h2>{state.dollarSign}{state.dollar}</h2>
                           </div>
                     </div>
                 </div>
               </div>    
+          </div>
           </div>
           ))}
               </Slider>
