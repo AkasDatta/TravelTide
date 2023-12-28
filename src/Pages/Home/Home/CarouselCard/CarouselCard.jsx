@@ -112,6 +112,7 @@ const CarouselCard = () => {
                       <div className="flex items-center justify-between  font-bold">
                         <div className="flex">
                             <p>
+                              
                             <Rating
                                 placeholderRating={state.rating}
                                 readonly
