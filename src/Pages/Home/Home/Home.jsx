@@ -3,6 +3,7 @@ import Breathtaking from "./Breathtaking/Breathtaking";
 import CarouselCard from "./CarouselCard/CarouselCard";
 import Discover from "./Discover/Discover";
 import HolidayCart from "./HolidayCart/HolidayCart";
+import Mediterranean from "./Mediterranean/Mediterranean";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Discover></Discover>
             <Breathtaking></Breathtaking>
             <CarouselCard></CarouselCard>
+            <Mediterranean></Mediterranean>
         </div>
     );
 };
