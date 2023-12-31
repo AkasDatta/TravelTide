@@ -1,4 +1,4 @@
-import unforgettable from "../../../../assets/"
+import unforgettable from "../../../../assets/unfo.png"
 const Mediterranean = () => {
     return (
         <div>
