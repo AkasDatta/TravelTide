@@ -2,6 +2,8 @@ import './Testimonial.css';
 import logo from "../../../../assets/testimonial.png";
 import { useEffect, useState } from 'react';
 import Slider from 'react-slick';
+import Rating from 'react-rating';
+import { FaRegStar, FaStar } from 'react-icons/fa';
 
 const Testimonial = () => {
     const [details, setDetails] = useState([]);
@@ -9,8 +11,8 @@ const Testimonial = () => {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 5,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       initialSlide: 0,
       responsive: [
         {
@@ -69,18 +71,23 @@ const Testimonial = () => {
                 <Slider {...settings}>
                     {details.map((review, index) => (
                         <div key={index} className='p-2'>
-                            <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                                <img src={review.image_url} alt="" />
+                            <div className="max-w-sm rounded overflow-hidden bg-white text-center shadowEffect">
+                                <img className='rounded-full' src={review.image_url} alt="" />
                                 <div className="px-6 py-4">
-                                    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                    <p className="text-gray-700 text-base">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                    <div className="font-bold text-xl my-5">{review.location}</div>
+                                    <p>
+                                        <Rating
+                                            placeholderRating={review.rating}
+                                            readonly
+                                            emptySymbol={<FaRegStar className="text-teal-400"></FaRegStar>}
+                                            placeholderSymbol={<FaStar className="text-teal-400"></FaStar>}
+                                            fullSymbol={<FaStar></FaStar>}
+                                        ></Rating>{' '}
                                     </p>
-                                </div>
-                                <div className="px-6 pt-4 pb-2">
-                                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                    <p className="text-gray-700 text-base my-5">
+                                    {review.description}
+                                    <div className="font-bold text-xl mt-4">{review.name}</div>
+                                    </p>
                                 </div>
                             </div>
                         </div>
