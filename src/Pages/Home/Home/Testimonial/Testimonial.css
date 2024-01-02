@@ -1,8 +1,7 @@
-.bg-container {
+.bg-testimonial {
     position: relative;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 60vh;
     background-image: url(../../../../assets/testimonial2.jpg);
 
