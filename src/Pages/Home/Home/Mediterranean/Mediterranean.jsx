@@ -14,7 +14,7 @@ const Mediterranean = () => {
   const lastThreeSpots = spot.slice(-3);
 
   return (
-    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:py-28 lg:py-28 md:py-32 py-32">
+    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pb-28 lg:pb-28 md:pb-32 pb-32">
         <div className="text-center pb-20">
             <div className="flex justify-center items-center">
                 <img src={unforgettable} alt="" />

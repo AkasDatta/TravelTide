@@ -1,4 +1,5 @@
 import image1 from '../../../../assets/shellBanner.png';
+import image2 from "../../../../assets/shellBanner2.png";
 import plan from '../../../../assets/plan.png';
 import Rating from 'react-rating';
 import { useEffect, useState } from 'react';
@@ -69,7 +70,7 @@ const CarouselCard = () => {
       <div className="flex items-center justify-center">
         <img src={image1} alt="" className="mx-auto my-0" />
       </div>
-      <div className='pb-32'>
+      <div className=''>
         <div className="text-center pb-20">
             <div className="flex justify-center items-center">
                 <img src={plan} alt="" />
@@ -135,6 +136,9 @@ const CarouselCard = () => {
           ))}
               </Slider>
         </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <img src={image2} alt="" className="mx-auto my-0" />
       </div>
     </div>
   );
