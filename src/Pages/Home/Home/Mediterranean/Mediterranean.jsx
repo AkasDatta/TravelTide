@@ -21,7 +21,30 @@ const Mediterranean = () => {
             </div>
             {spot.map((state, index) => (
                 <div key={index}>
+                    <a href="#" className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+                    <button
+                            className="absolute end-4 top-4 z-10 bg-teal-500 p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                        >
+                            <h2 className=" mx-6 text-white">{state.offer}</h2>
 
+                            
+                        </button>
+                        <img
+                            alt="Office"
+                            src={state.image}
+                            className="absolute inset-0 h-full w-full object-cover"
+                        />
+
+                        <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+                            <div className="p-4 sm:p-6 text-center text-white text-2xl font-bold">
+                            <h3>{state.name}</h3>
+                            <div>
+                                <h3 className="mt-0.5">{state.dollarSign}{state.dollar}</h3>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                    
                 </div>
             ))}
         </div>
