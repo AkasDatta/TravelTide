@@ -1,0 +1,12 @@
+.bg-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+    background-image: url(../../../../assets/testimonial2.jpg);
+
+    @media (max-height: 600px) {
+        height: 100vh;
+    }
+}

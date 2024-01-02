@@ -4,6 +4,7 @@ import CarouselCard from "./CarouselCard/CarouselCard";
 import Discover from "./Discover/Discover";
 import HolidayCart from "./HolidayCart/HolidayCart";
 import Mediterranean from "./Mediterranean/Mediterranean";
+import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Breathtaking></Breathtaking>
             <CarouselCard></CarouselCard>
             <Mediterranean></Mediterranean>
+            <Testimonial></Testimonial>
         </div>
     );
 };

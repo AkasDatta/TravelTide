@@ -19,7 +19,8 @@ const Mediterranean = () => {
             <div className="flex justify-center items-center">
                 <img src={unforgettable} alt="" />
             </div>
-            <h2 className="text-5xl my-3 font-bold text-gray-900">Mediterranean</h2>                <p className='mt-4 text-lg text-gray-700'>Discover the Mediterranean's charm: sun-soaked beaches, rich history, and delightful cuisine. <br /> Your perfect blend of relaxation and cultural immersion awaits!</p>
+            <h2 className="text-5xl my-3 font-bold text-gray-900">Mediterranean</h2>                
+            <p className='mt-4 text-lg text-gray-700'>Experience the Mediterranean: sunlit coasts, rich history, and delicious cuisine <br /> in a perfect blend of relaxation and cultural richness.</p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-8">
             {lastThreeSpots.map((state, index) => (
