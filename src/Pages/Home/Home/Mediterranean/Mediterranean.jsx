@@ -21,20 +21,17 @@ const Mediterranean = () => {
             </div>
             <h2 className="text-5xl my-3 font-bold text-gray-900">Perfect Holiday</h2>                <p className='mt-4 text-lg text-gray-700'>Craft your perfect getaway with our custom travel plans. <br /> Explore handpicked itineraries in our Plan and Holiday section.</p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-8">
             {lastThreeSpots.map((state, index) => (
-                <div key={index}>
-                    <a
-                        href="#"
-                        className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg"
-                    >
+                <a href="#" key={index}>
+                    <article className="relative overflow-hidden duration-1000 hover:scale-105">
                         <button className="absolute end-4 top-4 z-10 bg-teal-500 p-1.5 text-gray-900 transition">
                         <h2 className=" mx-6 text-white">{state.offer}</h2>
                         </button>
                         <img
                         alt="Office"
                         src={state.image}
-                        className="absolute inset-0 h-full w-full object-cover"
+                        className="absolute inset-0 h-full w-full object-cover transition duration-1000 hover:scale-105"
                         />
 
                         <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-60 sm:pt-72 lg:pt-96">
@@ -48,8 +45,8 @@ const Mediterranean = () => {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </article>
+                </a>
             ))}
         </div>
     </div>
