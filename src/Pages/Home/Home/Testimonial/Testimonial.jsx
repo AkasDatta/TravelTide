@@ -11,6 +11,9 @@ const Testimonial = () => {
                     <h2 className="text-5xl my-3 font-bold text-gray-900">Travel Reviews</h2>                
                     <p className='mt-4 text-lg'>Discover wanderlust stories in our testimonials – seamless planning, unforgettable <br /> moments. Find out why dream getaways begin with us.</p>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
     );

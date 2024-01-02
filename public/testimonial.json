@@ -1,0 +1,44 @@
+[
+      {
+        "image_url": "https://example.com/user1_avatar.jpg",
+        "location": "New York, USA",
+        "rating": 4,
+        "description": "Amazing city escape! Perfectly organized trip with stunning views. Definitely recommending to friends.",
+        "name": "Alex Johnson"
+      },
+      {
+        "image_url": "https://example.com/user2_avatar.jpg",
+        "location": "Barcelona, Spain",
+        "rating": 5,
+        "description": "Unforgettable experience! Seamless planning, delicious food, and friendly locals. Can't wait to explore with them again!",
+        "name": "Maria Rodriguez"
+      },
+      {
+        "image_url": "https://example.com/user3_avatar.jpg",
+        "location": "Tokyo, Japan",
+        "rating": 5,
+        "description": "Incredible cultural journey! Everything from the itinerary to accommodations exceeded expectations. Highly recommended!",
+        "name": "Kenji Tanaka"
+      },
+      {
+        "image_url": "https://example.com/user4_avatar.jpg",
+        "location": "Sydney, Australia",
+        "rating": 4,
+        "description": "Aussie adventure done right! Well-planned and executed trip, enjoyed every moment. Thumbs up!",
+        "name": "Olivia Harper"
+      },
+      {
+        "image_url": "https://example.com/user5_avatar.jpg",
+        "location": "Cape Town, South Africa",
+        "rating": 5,
+        "description": "Safari dreams come true! Exceptional service and breathtaking wildlife. An absolute highlight of my travels.",
+        "name": "Liam Mbeki"
+      },
+      {
+        "image_url": "https://example.com/user6_avatar.jpg",
+        "location": "Paris, France",
+        "rating": 4,
+        "description": "Romantic getaway was perfect! From the Eiffel Tower to charming cafes, this trip exceeded expectations. Merci beaucoup!",
+        "name": "Sophie Leclair"
+      }
+]
