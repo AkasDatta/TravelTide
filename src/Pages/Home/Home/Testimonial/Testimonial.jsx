@@ -71,11 +71,13 @@ const Testimonial = () => {
                 <Slider {...settings}>
                     {details.map((review, index) => (
                         <div key={index} className='p-2'>
-                            <div className="max-w-sm rounded overflow-hidden bg-white text-center shadowEffect">
-                                <img className='rounded-full' src={review.image_url} alt="" />
+                            <div className="max-w-sm rounded overflow-hidden bg-white text-center shadowEffect relative">
+                                <div className='flex justify-center items-center text-center  mt-5'>
+                                    <img className='rounded-full w-24' src={review.image_url} alt="" />
+                                </div>
                                 <div className="px-6 py-4">
-                                    <div className="font-bold text-xl my-5">{review.location}</div>
-                                    <p>
+                                    <a href='#' className="font-bold text-xl hover:text-teal-400 duration-300">{review.location}</a>
+                                    <p className='mt-5'>
                                         <Rating
                                             placeholderRating={review.rating}
                                             readonly
