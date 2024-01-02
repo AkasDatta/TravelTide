@@ -130,6 +130,39 @@
         "dollarSign":"$",
         "rating": 4.8,
         "quality_name": "Superb"
-      }
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1526711657229-e7e080ed7aa1?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people_quantity": 2,
+        "location": "Agra, India",
+        "name": "Taj Mahal",
+        "description": "Iconic view of the Taj Mahal, a symbol of eternal love and a UNESCO World Heritage Site located in Agra, India.",
+        "dollar": 150,
+        "dollarSign": "$$",
+        "rating": 4.9,
+        "quality_name": "Extraordinary"
+      },      
+      {
+        "image": "https://images.unsplash.com/photo-1553512313-64af79fdfe9c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people_quantity": 2,
+        "location": "Malé, Maldives",
+        "name": "Maldivian Paradise",
+        "description": "Exquisite tropical beauty and overwater bungalows in the Maldives, a perfect escape for relaxation and luxury.",
+        "dollar": 500,
+        "dollarSign": "$$",
+        "rating": 4.9,
+        "quality_name": "Luxurious"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1540483761890-a1f7be05d99f?q=80&w=1900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people_quantity": 5,
+        "location": "Seoul, South Korea",
+        "name": "Seoul Tower",
+        "description": "Breathtaking panoramic view of Seoul from the observation deck of Seoul Tower, an iconic landmark in South Korea.",
+        "dollar": 150,
+        "dollarSign": "$$",
+        "rating": 4.7,
+        "quality_name": "Great"
+      }      
   ]
   
