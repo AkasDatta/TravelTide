@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import holidayLogo from "../../../../assets/logoholiday.png";
+import holidayLogo from "../../../../assets/choose.png";
 import parisLogo from "../../../../assets/parisLogo.png";
 import Rating from 'react-rating';
 import { FaRegStar, FaStar } from "react-icons/fa";

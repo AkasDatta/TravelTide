@@ -1,6 +1,7 @@
 import Banner from "./Banner/Banner";
 import Breathtaking from "./Breathtaking/Breathtaking";
 import CarouselCard from "./CarouselCard/CarouselCard";
+import Destination from "./Destination/Destination";
 import Discover from "./Discover/Discover";
 import HolidayCart from "./HolidayCart/HolidayCart";
 import Mediterranean from "./Mediterranean/Mediterranean";
@@ -16,6 +17,7 @@ const Home = () => {
             <CarouselCard></CarouselCard>
             <Mediterranean></Mediterranean>
             <Testimonial></Testimonial>
+            <Destination></Destination>
         </div>
     );
 };
