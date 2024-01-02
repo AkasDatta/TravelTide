@@ -88,14 +88,14 @@
       "quality_name": "Better"
     },
     {
-      "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "people_quantity": 3,
-      "location": "Marrakech, Morocco",
-      "name": "Market Bazaar",
-      "description": "Bustling market scene with vibrant colors and exotic goods.",
-      "dollar": 160,
+      "image": "https://images.unsplash.com/photo-1533823526896-2def7ab090e5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "people_quantity": 2,
+      "location": "Singapore",
+      "name": "Gardens by the Bay",
+      "description": "The iconic Supertree Grove at Gardens by the Bay in Singapore.",
+      "dollar": 250,
       "dollarSign":"$",
-      "rating": 4.6,
+      "rating": 4.7,
       "quality_name": "Better"
     },
     {
@@ -110,15 +110,15 @@
       "quality_name": "Best"
     },
     {
-        "image": "https://images.unsplash.com/photo-1533823526896-2def7ab090e5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "people_quantity": 2,
-        "location": "Singapore",
-        "name": "Gardens by the Bay",
-        "description": "The iconic Supertree Grove at Gardens by the Bay in Singapore.",
-        "dollar": 250,
-        "dollarSign":"$",
-        "rating": 4.7,
-        "quality_name": "Better"
+      "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "people_quantity": 3,
+      "location": "Marrakech, Morocco",
+      "name": "Market Bazaar",
+      "description": "Bustling market scene with vibrant colors and exotic goods.",
+      "dollar": 160,
+      "dollarSign":"$",
+      "rating": 4.6,
+      "quality_name": "Better"
     },
     {
         "image": "https://images.unsplash.com/photo-1470004914212-05527e49370b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -136,33 +136,33 @@
         "people_quantity": 2,
         "location": "Agra, India",
         "name": "Taj Mahal",
-        "description": "Iconic view of the Taj Mahal, a symbol of eternal love and a UNESCO World Heritage Site located in Agra, India.",
+        "description": "Iconic symbol of love in Agra, India.",
         "dollar": 150,
-        "dollarSign": "$$",
+        "dollarSign": "$",
         "rating": 4.9,
-        "quality_name": "Extraordinary"
+        "quality_name": "Superb"
       },      
       {
         "image": "https://images.unsplash.com/photo-1553512313-64af79fdfe9c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "people_quantity": 2,
         "location": "Malé, Maldives",
         "name": "Maldivian Paradise",
-        "description": "Exquisite tropical beauty and overwater bungalows in the Maldives, a perfect escape for relaxation and luxury.",
+        "description": "Tropical beauty in the Maldives, an ideal luxury escape.",
         "dollar": 500,
-        "dollarSign": "$$",
+        "dollarSign": "$",
         "rating": 4.9,
-        "quality_name": "Luxurious"
-      },
+        "quality_name": "Great"
+      },      
       {
         "image": "https://images.unsplash.com/photo-1540483761890-a1f7be05d99f?q=80&w=1900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "people_quantity": 5,
         "location": "Seoul, South Korea",
         "name": "Seoul Tower",
-        "description": "Breathtaking panoramic view of Seoul from the observation deck of Seoul Tower, an iconic landmark in South Korea.",
+        "description": "Panoramic view of Seoul from an iconic landmark.",
         "dollar": 150,
-        "dollarSign": "$$",
+        "dollarSign": "$",
         "rating": 4.7,
         "quality_name": "Great"
-      }      
+      }          
   ]
   
