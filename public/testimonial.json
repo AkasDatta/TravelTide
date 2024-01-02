@@ -1,41 +1,41 @@
 [
       {
-        "image_url": "https://example.com/user1_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1661852137800-ece21571cd93image?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "New York, USA",
         "rating": 4,
         "description": "Amazing city escape! Perfectly organized trip with stunning views. Definitely recommending to friends.",
         "name": "Alex Johnson"
       },
       {
-        "image_url": "https://example.com/user2_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1587665262055-9b5d1bac9d76image?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "Barcelona, Spain",
         "rating": 5,
         "description": "Unforgettable experience! Seamless planning, delicious food, and friendly locals. Can't wait to explore with them again!",
         "name": "Maria Rodriguez"
       },
       {
-        "image_url": "https://example.com/user3_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1611088547355-dc8bb8f792d6image?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "Tokyo, Japan",
         "rating": 5,
         "description": "Incredible cultural journey! Everything from the itinerary to accommodations exceeded expectations. Highly recommended!",
         "name": "Kenji Tanaka"
       },
       {
-        "image_url": "https://example.com/user4_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1613425715540-4d5cf9f806f2image?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "Sydney, Australia",
         "rating": 4,
         "description": "Aussie adventure done right! Well-planned and executed trip, enjoyed every moment. Thumbs up!",
-        "name": "Olivia Harper"
+        "name": "Tamara Bellis"
       },
       {
-        "image_url": "https://example.com/user5_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1473625709436-2b15eacc7efe?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "Cape Town, South Africa",
         "rating": 5,
         "description": "Safari dreams come true! Exceptional service and breathtaking wildlife. An absolute highlight of my travels.",
         "name": "Liam Mbeki"
       },
       {
-        "image_url": "https://example.com/user6_avatar.jpg",
+        "image_url": "https://images.unsplash.com/profile-1513522475855-ff4d35edea3d?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
         "location": "Paris, France",
         "rating": 4,
         "description": "Romantic getaway was perfect! From the Eiffel Tower to charming cafes, this trip exceeded expectations. Merci beaucoup!",
