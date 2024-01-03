@@ -79,7 +79,7 @@ const CarouselCard = () => {
             <p className='mt-4 text-lg text-gray-700'>Craft your perfect getaway with our custom travel plans. <br /> Explore handpicked itineraries in our Plan and Holiday section.</p>
         </div>
         <div>
-        <Slider {...settings}>
+        <Slider {...settings} className='mx-5'>
         {card.map((state, index) => (
           <div key={index} className='p-2'>
             <div href="#" className="group relative block overflow-hidden shadow-xl">
