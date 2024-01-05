@@ -42,7 +42,6 @@ const Destination = () => {
                             src={state.image}
                             className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105 rounded-full"
                             />
-
                             <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 py-28 sm:py-24 md:py-28 lg:py-24 xl:py-32 rounded-full">
                                 <div className="p-4 sm:p-6 text-center text-white text-4xl font-bold">
                                     <h3>{state.name}</h3>
