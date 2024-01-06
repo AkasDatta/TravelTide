@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaRegComment } from "react-icons/fa";
 
 const Blog = () => {
     const [tour, setTour] = useState([]);
@@ -26,12 +27,11 @@ const Blog = () => {
                                <div className="flex">
                                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                                         <time
-                                
                                         className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
                                         >
-                                        <span>2022</span>
+                                        <p>{blog.year}</p>
                                         <span className="w-px flex-1 bg-gray-900/10"></span>
-                                        <span>Oct 10</span>
+                                        <p>{blog.date}</p>
                                         </time>
                                     </div>
 
@@ -46,33 +46,34 @@ const Blog = () => {
                             </div>
 
                             <div className="col-span-3 flex flex-1 flex-col justify-between">
-                                <div className="border-s border-gray-900/10 px-4 sm:border-l-transparent sm:px-6">
-                                <a href="#">
-                                    <h3 className="font-bold uppercase text-gray-900">
-                                    Finding the right guitar for your style - 5 tips
-                                    </h3>
-                                </a>
-
-                                <p className="mt-2 line-clamp-2 text-sm/relaxed text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
-                                    pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis
-                                    quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius
-                                    atque dignissimos. Molestias explicabo corporis voluptatem?
-                                </p>
-                                    <div className="sm:flex sm:items-end sm:justify-end">
-                                    <a
-                                        href="#"
-                                        className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
-                                    >
-                                        Read Blog
+                                <div className="border-s border-gray-900/10 pl-4 sm:border-l-transparent sm:pl-6 xl:my-0 lg:my-0 md:my-0 my-4">
+                                    <a href="#">
+                                        <h3 className="font-bold uppercase text-gray-900">
+                                        {blog.blogName}
+                                        </h3>
                                     </a>
-                                    </div>
-                                </div>
 
-                                
+                                    <p className="mt-2 line-clamp-2 text-sm/relaxed text-gray-700">
+                                        {blog.description}
+                                    </p>
+                                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:mt-11 lg:mt-0 md:mt-4 mt-4">
+                                    <div className="flex gap-2 cursor-pointer text-gray-900 hover:text-teal-500 duration-500">
+                                        <h3 className="mt-1"><FaRegComment /></h3>
+                                        <h3 className="font-bold">{blog.commentQuantity} Comment</h3>
+                                    </div>
+                                        <div className="sm:flex sm:items-end sm:justify-end mt-3 md:mt-0 lg:mt-0 xl:mt-0">
+                                            <a
+                                                href="#"
+                                                className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                                            >
+                                                Read Blog
+                                            </a>
+                                        </div>
+                                  </div>
+                                </div>
                             </div>
                         </article>
-                      ))};
+                      ))}
                 </div>
                 <div className="col-span-1 ml-0 lg:ml-8">
                     <h2>jiojhoij</h2>

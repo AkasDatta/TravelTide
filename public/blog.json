@@ -3,31 +3,34 @@
       "id": 1,
       "image": "https://images.unsplash.com/photo-1461723469403-c18756a1d102?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "blogName": "Adventure in the Mountains",
-      "description": "Explore the breathtaking landscapes of the mountainous regions. A journey filled with serenity and awe-inspiring views.",
-      "date": "2024-01-06",
+      "description": "Embark on an awe-inspiring journey through the breathtaking landscapes of the mountainous regions. Feel the serenity of nature as you explore hidden trails and witness panoramic views that will leave you breathless. This adventure is not just a trip; it's a soul-enriching experience that will linger in your memories forever.",
+      "date": "JAN 06",
+      "year": "2024",
       "commentQuantity": 2,
       "comments": [
-        "Amazing post! I'm adding this to my bucket list.",
-        "What a stunning adventure. Can't wait to experience it myself!"
+        "Your post is amazing! I'm adding this mountain adventure to my bucket list.",
+        "What a stunning journey! I can't wait to experience it myself!"
       ]
     },
     {
-      "id": 2,
-      "image": "https://images.unsplash.com/photo-1689009117682-2ebb831164ff?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "blogName": "Sunset Serenity",
-      "description": "Chase sunsets on the horizon. Witness nature's canvas unfold in hues of orange and pink.",
-      "date": "2024-01-07",
-      "commentQuantity": 1,
-      "comments": [
-        "Absolutely mesmerizing! Sunset therapy at its finest."
-      ]
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "blogName": "Culinary Delight",
+        "description": "Indulge in the exquisite flavors of our restaurant, where each dish is a masterpiece crafted to perfection. A symphony of tastes awaits as you savor our delectable offerings, from appetizers that tease your palate to desserts that leave a lasting sweet impression. Immerse yourself in a culinary journey that transcends the ordinary and elevates your dining experience to new heights.",
+        "date": "NAV 24",
+        "year": "2023",
+        "commentQuantity": 1,
+        "comments": [
+          "Absolutely mesmerizing! The culinary experience was truly exceptional."
+        ]
     },
     {
       "id": 3,
       "image": "https://images.unsplash.com/photo-1532788947-782cfea72800?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "blogName": "City Lights Exploration",
-      "description": "Dive into the vibrant city lights, discovering the rhythm and energy of urban life.",
-      "date": "2024-01-08",
+      "description": "Dive into the vibrant city lights and discover the rhythm and energy of urban life. Roam through bustling streets, surrounded by skyscrapers adorned with neon lights that paint the cityscape in a vivid tapestry. Feel the heartbeat of the metropolis as you explore hidden gems and iconic landmarks. This urban adventure is a sensory delight that will captivate your soul.",
+      "date": "OCT 23",
+      "year": "2023",
       "commentQuantity": 3,
       "comments": [
         "The cityscape is alive with energy!",
@@ -39,8 +42,9 @@
       "id": 4,
       "image": "https://images.unsplash.com/photo-1583514735580-650d4a4ef5de?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "blogName": "Island Paradise Getaway",
-      "description": "Escape to a tropical paradise, where sandy beaches and crystal-clear waters await.",
-      "date": "2024-01-09",
+      "description": "Escape to a tropical paradise, where sandy beaches and crystal-clear waters await. Bask in the warm sunshine, feel the soft sand beneath your feet, and let the gentle sound of waves serenade you. This island getaway is a haven of relaxation and natural beauty, offering a perfect retreat for those seeking tranquility and a taste of paradise.",
+      "date": "SEP 18",
+      "year": "2023",
       "commentQuantity": 1,
       "comments": [
         "This looks like the perfect beach escape!"
@@ -50,8 +54,9 @@
       "id": 5,
       "image": "https://images.unsplash.com/photo-1578593140012-b26d2bf0d8a6?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "blogName": "Historical Wonders Tour",
-      "description": "Journey through time as you explore ancient ruins and historical wonders.",
-      "date": "2024-01-10",
+      "description": "Journey through time as you explore ancient ruins and historical wonders that echo the stories of civilizations past. Walk among the remnants of grand structures, marvel at the architecture, and immerse yourself in the rich tapestry of history. This historical wonders tour is a captivating adventure for enthusiasts seeking a deeper connection with the heritage of our world.",
+      "date": "JUN 08",
+      "year": "2023",
       "commentQuantity": 2,
       "comments": [
         "Fascinating history!",
@@ -62,8 +67,9 @@
       "id": 6,
       "image": "https://images.unsplash.com/photo-1516786549992-7fc60748b3a3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "blogName": "Wildlife Safari Adventure",
-      "description": "Embark on a safari, witnessing the untamed beauty of wildlife in their natural habitat.",
-      "date": "2024-01-11",
+      "description": "Embark on a thrilling safari adventure, where you witness the untamed beauty of wildlife in their natural habitat. Experience the heart-pounding moments as majestic creatures roam freely, and the air is filled with the sounds of the wild. This safari is not just an excursion; it's a rendezvous with nature at its wildest, leaving you with memories of incredible wildlife sightings.",
+      "date": "FEB 10",
+      "year": "2024",
       "commentQuantity": 2,
       "comments": [
         "Nature at its wildest!",
@@ -71,4 +77,3 @@
       ]
     }
   ]
-  
