@@ -86,10 +86,10 @@ const Testimonial = () => {
                                             fullSymbol={<FaStar></FaStar>}
                                         ></Rating>{' '}
                                     </p>
-                                    <p className="text-gray-700 text-base my-5">
+                                    <p className="text-gray-700 text-base my-5 line-clamp-6">
                                     {review.description}
-                                    <div className="font-bold text-xl mt-4">{review.name}</div>
                                     </p>
+                                    <div className="font-bold text-xl mt-4">{review.name}</div>
                                 </div>
                             </div>
                         </div>

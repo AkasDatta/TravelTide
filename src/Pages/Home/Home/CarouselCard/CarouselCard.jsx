@@ -101,16 +101,18 @@ const CarouselCard = () => {
                           <div className='mt-1'>
                             <FaLocationDot></FaLocationDot>
                           </div>
-                          {state.location}
+                          <div className='line-clamp-1'>
+                            {state.location}
+                          </div>
                         </div>                     
                     </div>
                 </div>
             </div>
             <div className="relative mx-6 my-8">
-            <h2 className="block text-xl font-bold hover:text-teal-400 cursor-pointer">{state.name}</h2>
-                <h2 className="text-sm my-4">{state.description}</h2>
+            <h2 className="block text-xl font-bold hover:text-teal-400 cursor-pointer line-clamp-1">{state.name}</h2>
+                <h2 className="text-sm my-4 line-clamp-2">{state.description}</h2>
                 <div className="">
-                      <div className="flex items-center justify-between  font-bold">
+                      <div className="flex items-center justify-between font-bold">
                         <div className="flex">
                             <p>
                             <Rating

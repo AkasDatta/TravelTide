@@ -3,10 +3,10 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 60vh;
+    height: 500px;
 
     @media (max-height: 600px) {
-        height: 100vh;
+        height: 80vh;
     }
 }
 
