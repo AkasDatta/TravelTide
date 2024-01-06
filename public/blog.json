@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1461723469403-c18756a1d102?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "Adventure in the Mountains",
+      "description": "Explore the breathtaking landscapes of the mountainous regions. A journey filled with serenity and awe-inspiring views.",
+      "date": "2024-01-06",
+      "commentQuantity": 2,
+      "comments": [
+        "Amazing post! I'm adding this to my bucket list.",
+        "What a stunning adventure. Can't wait to experience it myself!"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1689009117682-2ebb831164ff?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "Sunset Serenity",
+      "description": "Chase sunsets on the horizon. Witness nature's canvas unfold in hues of orange and pink.",
+      "date": "2024-01-07",
+      "commentQuantity": 1,
+      "comments": [
+        "Absolutely mesmerizing! Sunset therapy at its finest."
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1532788947-782cfea72800?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "City Lights Exploration",
+      "description": "Dive into the vibrant city lights, discovering the rhythm and energy of urban life.",
+      "date": "2024-01-08",
+      "commentQuantity": 3,
+      "comments": [
+        "The cityscape is alive with energy!",
+        "Love the hustle and bustle.",
+        "Can't get enough of those neon lights!"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1583514735580-650d4a4ef5de?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "Island Paradise Getaway",
+      "description": "Escape to a tropical paradise, where sandy beaches and crystal-clear waters await.",
+      "date": "2024-01-09",
+      "commentQuantity": 1,
+      "comments": [
+        "This looks like the perfect beach escape!"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1578593140012-b26d2bf0d8a6?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "Historical Wonders Tour",
+      "description": "Journey through time as you explore ancient ruins and historical wonders.",
+      "date": "2024-01-10",
+      "commentQuantity": 2,
+      "comments": [
+        "Fascinating history!",
+        "Can't believe the beauty of these ancient sites."
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1516786549992-7fc60748b3a3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "blogName": "Wildlife Safari Adventure",
+      "description": "Embark on a safari, witnessing the untamed beauty of wildlife in their natural habitat.",
+      "date": "2024-01-11",
+      "commentQuantity": 2,
+      "comments": [
+        "Nature at its wildest!",
+        "Such incredible wildlife sightings."
+      ]
+    }
+  ]
+  
