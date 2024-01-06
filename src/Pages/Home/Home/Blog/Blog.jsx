@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaRegComment } from "react-icons/fa";
+import saleImage from "../../../../assets/saleImage.png";
 
 const Blog = () => {
     const [tour, setTour] = useState([]);
@@ -22,7 +23,7 @@ const Blog = () => {
                     <p className='mt-4 text-lg text-gray-700'>Dive into micro-adventures with our tiny travel tales. Big inspiration, small reads. Your passport to quick escapes!</p>
 
                     {sliceBlog.map((blog, index) => (
-                        <article key={index} className="grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4 bg-white transition hover:shadow-xl mt-12">
+                        <article key={index} className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 bg-white transition hover:shadow-xl mt-12">
                             <div className="col-span-1">
                                <div className="flex">
                                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
@@ -75,9 +76,10 @@ const Blog = () => {
                         </article>
                       ))}
                 </div>
-                <div className="col-span-1 ml-0 lg:ml-8">
-                    <h2>jiojhoij</h2>
+                <div className="col-span-1 ml-0 lg:ml-8 mt-6">
+                    <img src={saleImage} className="" alt="" />
                 </div>
+
            </div>
         </div>
     );
