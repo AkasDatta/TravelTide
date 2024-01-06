@@ -10,6 +10,7 @@ const Blog = () => {
         .catch((error) => console.log(error));
     }, []);
 
+    const sliceBlog = tour.slice(0, 2);
 
 
     return (
@@ -19,8 +20,8 @@ const Blog = () => {
                     <h2 className="text-5xl font-bold text-gray-900">From Our Blog</h2>                
                     <p className='mt-4 text-lg text-gray-700'>Dive into micro-adventures with our tiny travel tales. Big inspiration, small reads. Your passport to quick escapes!</p>
 
-                    {tour.map((blog, index) => (
-                        <article key={index} className="grid grid-cols-3 bg-white transition hover:shadow-xl mt-12">
+                    {sliceBlog.map((blog, index) => (
+                        <article key={index} className="grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4 bg-white transition hover:shadow-xl mt-12">
                             <div className="col-span-1">
                                <div className="flex">
                                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
@@ -44,7 +45,7 @@ const Blog = () => {
                                </div>
                             </div>
 
-                            <div className="col-span-2 flex flex-1 flex-col justify-between">
+                            <div className="col-span-3 flex flex-1 flex-col justify-between">
                                 <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                 <a href="#">
                                     <h3 className="font-bold uppercase text-gray-900">
@@ -72,7 +73,7 @@ const Blog = () => {
                         </article>
                       ))};
                 </div>
-                <div className="col-span-1 ml-8">
+                <div className="col-span-1 ml-0 lg:ml-8">
                     <h2>jiojhoij</h2>
                 </div>
            </div>
