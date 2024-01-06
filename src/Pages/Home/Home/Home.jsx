@@ -1,4 +1,5 @@
 import Banner from "./Banner/Banner";
+import Blog from "./Blog/Blog";
 import Breathtaking from "./Breathtaking/Breathtaking";
 import CarouselCard from "./CarouselCard/CarouselCard";
 import Destination from "./Destination/Destination";
@@ -17,6 +18,7 @@ const Home = () => {
             <CarouselCard></CarouselCard>
             <Mediterranean></Mediterranean>
             <Testimonial></Testimonial>
+            <Blog></Blog>
             <Destination></Destination>
         </div>
     );
