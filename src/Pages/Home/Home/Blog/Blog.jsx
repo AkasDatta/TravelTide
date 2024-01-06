@@ -14,7 +14,7 @@ const Blog = () => {
 
 
     return (
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:py-28 lg:py-28 md:py-32 py-32">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:py-28 lg:py-28 md:py-32 pt-32">
            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                 <div className="col-span-2 pr-12">
                     <h2 className="text-5xl font-bold text-gray-900">From Our Blog</h2>                
@@ -46,29 +46,30 @@ const Blog = () => {
                             </div>
 
                             <div className="col-span-3 flex flex-1 flex-col justify-between">
-                                <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                                <div className="border-s border-gray-900/10 px-4 sm:border-l-transparent sm:px-6">
                                 <a href="#">
                                     <h3 className="font-bold uppercase text-gray-900">
                                     Finding the right guitar for your style - 5 tips
                                     </h3>
                                 </a>
 
-                                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                                <p className="mt-2 line-clamp-2 text-sm/relaxed text-gray-700">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
                                     pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis
                                     quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius
                                     atque dignissimos. Molestias explicabo corporis voluptatem?
                                 </p>
+                                    <div className="sm:flex sm:items-end sm:justify-end">
+                                    <a
+                                        href="#"
+                                        className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                                    >
+                                        Read Blog
+                                    </a>
+                                    </div>
                                 </div>
 
-                                <div className="sm:flex sm:items-end sm:justify-end">
-                                <a
-                                    href="#"
-                                    className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
-                                >
-                                    Read Blog
-                                </a>
-                                </div>
+                                
                             </div>
                         </article>
                       ))};

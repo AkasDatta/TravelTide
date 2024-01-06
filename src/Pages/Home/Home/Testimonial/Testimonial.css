@@ -1,9 +1,8 @@
-/* Set the default cursor style for the element */
+
 .element {
     cursor: default;
   }
   
-  /* Change the cursor style to pointer when the element is clicked */
   .element:active {
     cursor: pointer;
   }
@@ -12,11 +11,11 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 900px;
     background-image: url(../../../../assets/testimonial2.jpg);
 
     @media (max-height: 600px) {
-        height: 100vh;
+        height: 185vh;
     }
 }
 
