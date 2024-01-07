@@ -76,8 +76,8 @@ const Blog = () => {
                         </article>
                       ))}
                 </div>
-                <div className="col-span-1 ml-0 lg:ml-8 mt-6">
-                    <img src={saleImage} className="" alt="" />
+                <div className="col-span-1  my-8 lg:mt-24 xl:col-span-1 lg:col-span-1 md:col-span-2 ml-auto mr-auto lg:ml-0">
+                    <img src={saleImage} className="mx-auto w-full" alt="" />
                 </div>
 
            </div>
