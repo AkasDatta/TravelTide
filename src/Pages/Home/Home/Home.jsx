@@ -6,6 +6,7 @@ import Destination from "./Destination/Destination";
 import Discover from "./Discover/Discover";
 import HolidayCart from "./HolidayCart/HolidayCart";
 import Mediterranean from "./Mediterranean/Mediterranean";
+import PackUp from "./PackUp/PackUp";
 import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <Testimonial></Testimonial>
             <Blog></Blog>
             <Destination></Destination>
+            <PackUp></PackUp>
         </div>
     );
 };
