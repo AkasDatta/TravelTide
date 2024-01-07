@@ -7,6 +7,7 @@ import Discover from "./Discover/Discover";
 import HolidayCart from "./HolidayCart/HolidayCart";
 import Mediterranean from "./Mediterranean/Mediterranean";
 import PackUp from "./PackUp/PackUp";
+import Shop from "./Shop/Shop";
 import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <Mediterranean></Mediterranean>
             <Testimonial></Testimonial>
             <Blog></Blog>
+            <Shop></Shop>
             <Destination></Destination>
             <PackUp></PackUp>
         </div>

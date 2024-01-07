@@ -1,0 +1,562 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Portable Camping Lamp",
+        "images": [
+          "lamp_image1.jpg",
+          "lamp_image2.jpg",
+          "lamp_image3.jpg",
+          "lamp_image4.jpg"
+        ],
+        "price": 39.99,
+        "review": 4.5,
+        "description": "Illuminate your camping site with this portable and energy-efficient camping lamp. Ideal for outdoor adventures.",
+        "sku": "1",
+        "category": "Camping",
+        "tags": ["lamp", "camping", "outdoor"],
+        "weight": "0.4kg",
+        "dimensions": {
+          "length": 3,
+          "width": 7,
+          "height": 5
+        },
+        "reviews": [
+          {
+            "name": "AdventureSeeker123",
+            "rating": 5,
+            "date": "September 26, 2023",
+            "description": "This lamp made my camping experience so much better. Highly recommended!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Traveler's Backpack",
+        "images": [
+          "backpack_image1.jpg",
+          "backpack_image2.jpg",
+          "backpack_image3.jpg",
+          "backpack_image4.jpg"
+        ],
+        "price": 79.99,
+        "review": 4.2,
+        "description": "A durable and spacious backpack designed for travelers. Multiple compartments for organized packing.",
+        "sku": "2",
+        "category": "Travel Gear",
+        "tags": ["backpack", "travel", "adventure"],
+        "weight": "1.2kg",
+        "dimensions": {
+          "length": 12,
+          "width": 8,
+          "height": 18
+        },
+        "reviews": [
+          {
+            "name": "Jetsetter23",
+            "rating": 4,
+            "date": "October 5, 2023",
+            "description": "Sturdy and comfortable. Perfect for my long journeys."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Powerful Portable Charger",
+        "images": [
+          "powerbank_image1.jpg",
+          "powerbank_image2.jpg",
+          "powerbank_image3.jpg",
+          "powerbank_image4.jpg"
+        ],
+        "price": 49.99,
+        "review": 4.8,
+        "description": "Keep your devices charged on the go with this high-capacity portable charger. Compact and efficient.",
+        "sku": "3",
+        "category": "Electronics",
+        "tags": ["powerbank", "charging", "travel"],
+        "weight": "0.3kg",
+        "dimensions": {
+          "length": 5,
+          "width": 2,
+          "height": 10
+        },
+        "reviews": [
+          {
+            "name": "TechEnthusiast",
+            "rating": 5,
+            "date": "September 30, 2023",
+            "description": "Fast charging and lightweight. A must-have for every traveler."
+          },
+          {
+            "name": "OnTheGoPro",
+            "rating": 4.5,
+            "date": "October 2, 2023",
+            "description": "Kept my phone alive during a long day of exploring. Impressive!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Compact Travel Umbrella",
+        "images": [
+          "umbrella_image1.jpg",
+          "umbrella_image2.jpg",
+          "umbrella_image3.jpg",
+          "umbrella_image4.jpg"
+        ],
+        "price": 19.99,
+        "review": 4.0,
+        "description": "Stay dry during unexpected rain with this compact and lightweight travel umbrella. Fits easily in your bag.",
+        "sku": "4",
+        "category": "Accessories",
+        "tags": ["umbrella", "rain", "travel"],
+        "weight": "0.5kg",
+        "dimensions": {
+          "length": 10,
+          "width": 2,
+          "height": 2
+        },
+        "reviews": [
+          {
+            "name": "RainyDayExplorer",
+            "rating": 4,
+            "date": "October 10, 2023",
+            "description": "Sturdy and compact. Saved me from unexpected rain many times."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Spacious Camping Tent",
+        "images": [
+          "tent_image1.jpg",
+          "tent_image2.jpg",
+          "tent_image3.jpg",
+          "tent_image4.jpg"
+        ],
+        "price": 149.99,
+        "review": 4.7,
+        "description": "Enjoy the great outdoors with this spacious and easy-to-set-up camping tent. Perfect for group adventures.",
+        "sku": "5",
+        "category": "Camping",
+        "tags": ["tent", "camping", "outdoor"],
+        "weight": "2.5kg",
+        "dimensions": {
+          "length": 10,
+          "width": 8,
+          "height": 6
+        },
+        "reviews": [
+          {
+            "name": "NatureExplorer456",
+            "rating": 5,
+            "date": "October 15, 2023",
+            "description": "Roomy and durable. Great for camping with friends."
+          },
+          {
+            "name": "AdventureCouples",
+            "rating": 4.5,
+            "date": "October 18, 2023",
+            "description": "Easy to set up and pack. Made our camping trip comfortable and memorable."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Durable Camping Rope",
+        "images": [
+          "rope_image1.jpg",
+          "rope_image2.jpg",
+          "rope_image3.jpg",
+          "rope_image4.jpg"
+        ],
+        "price": 14.99,
+        "review": 4.3,
+        "description": "Secure your campsite with this strong and durable camping rope. Essential for various outdoor activities.",
+        "sku": "6",
+        "category": "Camping",
+        "tags": ["rope", "camping", "outdoor"],
+        "weight": "0.8kg",
+        "dimensions": {
+          "length": 50,
+          "width": 1,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "OutdoorEnthusiast789",
+            "rating": 4,
+            "date": "October 20, 2023",
+            "description": "Reliable and sturdy. Used it for various outdoor activities without any issues."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Comfortable Flip-Flops",
+        "images": [
+          "flipflops_image1.jpg",
+          "flipflops_image2.jpg",
+          "flipflops_image3.jpg",
+          "flipflops_image4.jpg"
+        ],
+        "price": 24.99,
+        "review": 4.6,
+        "description": "Keep your feet cool and comfortable with these stylish flip-flops. Perfect for beach vacations and casual walks.",
+        "sku": "7",
+        "category": "Footwear",
+        "tags": ["flip-flops", "beach", "travel"],
+        "weight": "0.3kg",
+        "dimensions": {
+          "length": 9,
+          "width": 4,
+          "height": 2
+        },
+        "reviews": [
+          {
+            "name": "BeachBum123",
+            "rating": 5,
+            "date": "October 25, 2023",
+            "description": "Stylish and comfortable. Perfect for a day at the beach."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Sun Protection Summer Hat",
+        "images": [
+          "summerhat_image1.jpg",
+          "summerhat_image2.jpg",
+          "summerhat_image3.jpg",
+          "summerhat_image4.jpg"
+        ],
+        "price": 19.99,
+        "review": 4.4,
+        "description": "Shield yourself from the sun with this stylish and protective summer hat. Ideal for sunny destinations.",
+        "sku": "8",
+        "category": "Accessories",
+        "tags": ["summer-hat", "sun-protection", "travel"],
+        "weight": "0.2kg",
+        "dimensions": {
+          "length": 10,
+          "width": 8,
+          "height": 5
+        },
+        "reviews": [
+          {
+            "name": "SunSeeker789",
+            "rating": 4.5,
+            "date": "October 28, 2023",
+            "description": "Lightweight and provides great sun protection. A must-have for sunny vacations."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Stylish Travel Sunglasses",
+        "images": [
+          "sunglasses_image1.jpg",
+          "sunglasses_image2.jpg",
+          "sunglasses_image3.jpg",
+          "sunglasses_image4.jpg"
+        ],
+        "price": 29.99,
+        "review": 4.7,
+        "description": "Complete your travel look with these stylish and UV-protected sunglasses. Perfect for any outdoor activity.",
+        "sku": "9",
+        "category": "Accessories",
+        "tags": ["sunglasses", "fashion", "travel"],
+        "weight": "0.1kg",
+        "dimensions": {
+          "length": 6,
+          "width": 2,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "FashionExplorer456",
+            "rating": 5,
+            "date": "October 30, 2023",
+            "description": "Stylish and provides excellent sun protection. Love these sunglasses!"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Multipurpose Travel Tool",
+        "images": [
+          "traveltool_image1.jpg",
+          "traveltool_image2.jpg",
+          "traveltool_image3.jpg",
+          "traveltool_image4.jpg"
+        ],
+        "price": 34.99,
+        "review": 4.3,
+        "description": "Be prepared for various situations with this versatile and compact multipurpose travel tool. A handy companion for any journey.",
+        "sku": "10",
+        "category": "Tools",
+        "tags": ["travel-tool", "multipurpose", "adventure"],
+        "weight": "0.5kg",
+        "dimensions": {
+          "length": 8,
+          "width": 4,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "HandyExplorer789",
+            "rating": 4,
+            "date": "November 2, 2023",
+            "description": "Compact and useful. I take it with me on every trip."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Versatile Travel Organizer",
+        "images": [
+          "organizer_image1.jpg",
+          "organizer_image2.jpg",
+          "organizer_image3.jpg",
+          "organizer_image4.jpg"
+        ],
+        "price": 29.99,
+        "review": 4.6,
+        "description": "Keep your travel essentials organized with this versatile and compact travel organizer. Multiple compartments for efficient storage.",
+        "sku": "11",
+        "category": "Accessories",
+        "tags": ["organizer", "travel", "storage"],
+        "weight": "0.3kg",
+        "dimensions": {
+          "length": 9,
+          "width": 5,
+          "height": 2
+        },
+        "reviews": [
+          {
+            "name": "OrganizedTraveler456",
+            "rating": 5,
+            "date": "November 5, 2023",
+            "description": "A game-changer for staying organized while on the move. Love it!"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Outdoor Adventure Knife",
+        "images": [
+          "knife_image1.jpg",
+          "knife_image2.jpg",
+          "knife_image3.jpg",
+          "knife_image4.jpg"
+        ],
+        "price": 44.99,
+        "review": 4.2,
+        "description": "Be prepared for outdoor adventures with this durable and versatile adventure knife. Essential for camping and hiking.",
+        "sku": "12",
+        "category": "Tools",
+        "tags": ["knife", "outdoor", "adventure"],
+        "weight": "0.6kg",
+        "dimensions": {
+          "length": 7,
+          "width": 1,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "AdventureSurvivor789",
+            "rating": 4,
+            "date": "November 8, 2023",
+            "description": "Sharp and reliable. Used it during my camping trip, and it performed exceptionally well."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Compact Sleeping Bag",
+        "images": [
+          "sleepingbag_image1.jpg",
+          "sleepingbag_image2.jpg",
+          "sleepingbag_image3.jpg",
+          "sleepingbag_image4.jpg"
+        ],
+        "price": 69.99,
+        "review": 4.8,
+        "description": "Stay warm and comfortable during camping trips with this compact and lightweight sleeping bag. Perfect for chilly nights.",
+        "sku": "13",
+        "category": "Camping",
+        "tags": ["sleeping-bag", "camping", "outdoor"],
+        "weight": "1.0kg",
+        "dimensions": {
+          "length": 15,
+          "width": 8,
+          "height": 5
+        },
+        "reviews": [
+          {
+            "name": "CozyCamper123",
+            "rating": 5,
+            "date": "November 12, 2023",
+            "description": "Kept me warm on a cold night. Compact and easy to carry."
+          },
+          {
+            "name": "OutdoorExplorer456",
+            "rating": 4.5,
+            "date": "November 15, 2023",
+            "description": "Excellent quality and lightweight. Highly recommended for camping enthusiasts."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Quick-Dry Travel Towel",
+        "images": [
+          "towel_image1.jpg",
+          "towel_image2.jpg",
+          "towel_image3.jpg",
+          "towel_image4.jpg"
+        ],
+        "price": 14.99,
+        "review": 4.4,
+        "description": "Stay fresh and dry with this quick-dry travel towel. Compact and absorbent, perfect for any adventure.",
+        "sku": "14",
+        "category": "Accessories",
+        "tags": ["towel", "travel", "adventure"],
+        "weight": "0.2kg",
+        "dimensions": {
+          "length": 6,
+          "width": 4,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "QuickDryTraveler789",
+            "rating": 4.5,
+            "date": "November 18, 2023",
+            "description": "Super absorbent and dries quickly. Perfect for my travels."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Durable Camping Cookware Set",
+        "images": [
+          "cookware_image1.jpg",
+          "cookware_image2.jpg",
+          "cookware_image3.jpg",
+          "cookware_image4.jpg"
+        ],
+        "price": 49.99,
+        "review": 4.6,
+        "description": "Prepare delicious meals in the great outdoors with this durable and compact camping cookware set. Lightweight and easy to clean.",
+        "sku": "15",
+        "category": "Camping",
+        "tags": ["cookware", "camping", "outdoor"],
+        "weight": "1.2kg",
+        "dimensions": {
+          "length": 10,
+          "width": 7,
+          "height": 5
+        },
+        "reviews": [
+          {
+            "name": "OutdoorChef123",
+            "rating": 5,
+            "date": "November 22, 2023",
+            "description": "High-quality cookware set. Made cooking in the wilderness a breeze."
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Adventure-Ready First Aid Kit",
+        "images": [
+          "firstaidkit_image1.jpg",
+          "firstaidkit_image2.jpg",
+          "firstaidkit_image3.jpg",
+          "firstaidkit_image4.jpg"
+        ],
+        "price": 29.99,
+        "review": 4.7,
+        "description": "Be prepared for emergencies with this comprehensive and compact first aid kit. Essential for any outdoor adventure.",
+        "sku": "16",
+        "category": "Safety",
+        "tags": ["first-aid-kit", "emergency", "adventure"],
+        "weight": "0.5kg",
+        "dimensions": {
+          "length": 8,
+          "width": 5,
+          "height": 2
+        },
+        "reviews": [
+          {
+            "name": "SafetyFirst789",
+            "rating": 5,
+            "date": "November 25, 2023",
+            "description": "Well-organized and includes all the essentials. A must-have for any trip."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Adjustable Travel Hammock",
+        "images": [
+          "hammock_image1.jpg",
+          "hammock_image2.jpg",
+          "hammock_image3.jpg",
+          "hammock_image4.jpg"
+        ],
+        "price": 39.99,
+        "review": 4.3,
+        "description": "Relax in style with this adjustable and lightweight travel hammock. Easy to set up and perfect for outdoor lounging.",
+        "sku": "17",
+        "category": "Camping",
+        "tags": ["hammock", "travel", "relaxation"],
+        "weight": "0.7kg",
+        "dimensions": {
+          "length": 10,
+          "width": 5,
+          "height": 3
+        },
+        "reviews": [
+          {
+            "name": "RelaxationMaster456",
+            "rating": 4,
+            "date": "November 28, 2023",
+            "description": "Comfortable and easy to carry. Perfect for unwinding after a day of adventure."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Collapsible Water Bottle",
+        "images": [
+          "waterbottle_image1.jpg",
+          "waterbottle_image2.jpg",
+          "waterbottle_image3.jpg",
+          "waterbottle_image4.jpg"
+        ],
+        "price": 12.99,
+        "review": 4.5,
+        "description": "Stay hydrated on the go with this collapsible and reusable water bottle. Convenient and eco-friendly.",
+        "sku": "18",
+        "category": "Accessories",
+        "tags": ["water-bottle", "hydration", "travel"],
+        "weight": "0.2kg",
+        "dimensions": {
+          "length": 5,
+          "width": 3,
+          "height": 10
+        },
+        "reviews": [
+          {
+            "name": "HydrationMaster789",
+            "rating": 5,
+            "date": "November 30, 2023",
+            "description": "Compact and leak-proof. Perfect for staying hydrated during outdoor activities."
+          }
+        ]
+      }
+    ]
+}

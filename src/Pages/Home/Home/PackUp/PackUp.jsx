@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import ready from"../../../../assets/getready.png";
 import Slider from "react-slick";
+import "./PackUp.css";
 
 const PackUp = () => {
     const [card, setCard] = useState([]);
     const settings = {
-      dots: true,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 3000,
@@ -20,7 +20,6 @@ const PackUp = () => {
             slidesToShow: 2,
             slidesToScroll: 2,
             infinite: true,
-            dots: true
           }
         },
         {
@@ -29,7 +28,6 @@ const PackUp = () => {
             slidesToShow: 2,
             slidesToScroll: 2,
             infinite: true,
-            dots: true
           }
         },
         {
@@ -70,7 +68,7 @@ const PackUp = () => {
             <div >
                 <Slider {...settings} className='mx-5'>
                 {card.map((state, index) => (
-                <div key={index} className='p-16'>
+                <div key={index} className='px-16'>
                     <div href="#" className="group relative block overflow-hidden shadow-xl">
                     <img
                     src={state.image}
