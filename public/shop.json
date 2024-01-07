@@ -557,6 +557,96 @@
             "description": "Compact and leak-proof. Perfect for staying hydrated during outdoor activities."
           }
         ]
+      },
+      {
+        "id": 19,
+        "name": "Modern Explorer Hat",
+        "images": [
+          "modernhat_image1.jpg",
+          "modernhat_image2.jpg",
+          "modernhat_image3.jpg",
+          "modernhat_image4.jpg"
+        ],
+        "price": 29.99,
+        "review": 4.8,
+        "description": "Stay stylish and protected from the sun with this modern explorer hat. Features a sleek design and UV protection.",
+        "sku": "19",
+        "category": "Accessories",
+        "tags": ["modern-hat", "explorer", "fashion"],
+        "weight": "0.3kg",
+        "dimensions": {
+          "length": 10,
+          "width": 8,
+          "height": 5
+        },
+        "reviews": [
+          {
+            "name": "FashionForward123",
+            "rating": 5,
+            "date": "December 5, 2023",
+            "description": "Love the modern design and provides great sun protection. A must-have accessory!"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Premium Travel Compass",
+        "images": [
+          "compass_image1.jpg",
+          "compass_image2.jpg",
+          "compass_image3.jpg",
+          "compass_image4.jpg"
+        ],
+        "price": 19.99,
+        "review": 4.5,
+        "description": "Navigate with confidence using this premium travel compass. Durable construction and accurate directional readings.",
+        "sku": "20",
+        "category": "Tools",
+        "tags": ["compass", "navigation", "travel"],
+        "weight": "0.2kg",
+        "dimensions": {
+          "length": 5,
+          "width": 1,
+          "height": 1
+        },
+        "reviews": [
+          {
+            "name": "DirectionExplorer456",
+            "rating": 4.5,
+            "date": "December 8, 2023",
+            "description": "Accurate and easy to use. A reliable companion for any outdoor adventure."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "High-Resolution Travel Camera",
+        "images": [
+          "camera_image1.jpg",
+          "camera_image2.jpg",
+          "camera_image3.jpg",
+          "camera_image4.jpg"
+        ],
+        "price": 299.99,
+        "review": 4.9,
+        "description": "Capture your travel memories in stunning detail with this high-resolution travel camera. Lightweight and feature-packed.",
+        "sku": "21",
+        "category": "Electronics",
+        "tags": ["camera", "photography", "travel"],
+        "weight": "0.5kg",
+        "dimensions": {
+          "length": 4,
+          "width": 3,
+          "height": 6
+        },
+        "reviews": [
+          {
+            "name": "PhotoEnthusiast123",
+            "rating": 5,
+            "date": "December 12, 2023",
+            "description": "Impressive image quality and easy to carry. Perfect for capturing travel moments."
+          }
+        ]
       }
     ]
 }
