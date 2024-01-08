@@ -20,14 +20,13 @@ const Shop = () => {
                     <p className='mt-4 text-lg text-gray-700 my-2'>CANDLES & DIFFUSERS</p>
                     <h2 className="text-5xl font-bold text-gray-900">TRADITION OF QUALITY </h2>       
                 </div> 
-                <a href="#" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 cursor-pointer gap-4 lg:pl-16 pl-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 lg:pl-16 pl-4">
                     {sliceProduct.map((product, index) => (   
-                            <article className="flex mt-20" key={index}>
+                            <a href="#" className="flex mt-20" key={index}>
                                 <div className="">
                                     <img
                                     alt="Guitar"
                                     src={product.images[0]}
-                                    // src={product.image}
                                     className="aspect-square h-28 w-24 object-cover"
                                     />
                                 </div>
@@ -48,9 +47,9 @@ const Shop = () => {
                                     </p>
                                     </div>
                                 </div>
-                            </article>
+                            </a>
                     ))}
-                </a>
+                </div>
                 <div className="sm:flex sm:items-end sm:justify-end ml-4 mt-6 md:mt-6 lg:mt-6 xl:mt-6">
                         <button
                             type="submit"
