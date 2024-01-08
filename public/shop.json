@@ -100,10 +100,10 @@
         "id": 4,
         "name": "Compact Travel Umbrella",
         "images": [
-          "umbrella_image1.jpg",
-          "umbrella_image2.jpg",
-          "umbrella_image3.jpg",
-          "umbrella_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-18-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-54-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-53-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-52-300x300.jpg"
         ],
         "price": 19.99,
         "review": 4.0,
