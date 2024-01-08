@@ -51,6 +51,14 @@ const Shop = () => {
                             </article>
                     ))}
                 </a>
+                <div className="sm:flex sm:items-end sm:justify-end ml-4 mt-6 md:mt-6 lg:mt-6 xl:mt-6">
+                        <button
+                            type="submit"
+                            className="block bg-teal-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-teal-400"
+                        >
+                            SHOW MORE
+                        </button>
+                    </div>
             </div>
         </div>
     );
