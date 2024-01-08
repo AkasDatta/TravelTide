@@ -1,8 +1,8 @@
-{
-    "products": [
+
+   [
       {
         "id": 1,
-        "name": "Portable Camping Lamp",
+        "name": "Lamp",
         "images": [
           "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-13-768x672.jpg",
           "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-39-300x300.jpg",
@@ -32,12 +32,12 @@
       },
       {
         "id": 2,
-        "name": "Traveler's Backpack",
+        "name": "Backpack",
         "images": [
-          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-15-768x672.jpg",
-          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-45-300x300.jpg",
-          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-44-300x300.jpg",
-          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-43-300x300.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-4-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-12-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-11-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-10-300x300.jpg"
         ],
         "price": 79.99,
         "review": 4.2,
@@ -62,12 +62,12 @@
       },
       {
         "id": 3,
-        "name": "Powerful Portable Charger",
+        "name": "Power Bank",
         "images": [
-          "powerbank_image1.jpg",
-          "powerbank_image2.jpg",
-          "powerbank_image3.jpg",
-          "powerbank_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-17-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-51-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-50-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-49-300x300.jpg"
         ],
         "price": 49.99,
         "review": 4.8,
@@ -95,10 +95,10 @@
             "description": "Kept my phone alive during a long day of exploring. Impressive!"
           }
         ]
-      },
+      },      
       {
         "id": 4,
-        "name": "Compact Travel Umbrella",
+        "name": "Umbrella",
         "images": [
           "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-18-768x672.jpg",
           "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-54-300x300.jpg",
@@ -128,12 +128,12 @@
       },
       {
         "id": 5,
-        "name": "Spacious Camping Tent",
+        "name": "Tent",
         "images": [
-          "tent_image1.jpg",
-          "tent_image2.jpg",
-          "tent_image3.jpg",
-          "tent_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-16-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-46-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-47-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-48-300x300.jpg"
         ],
         "price": 149.99,
         "review": 4.7,
@@ -164,42 +164,42 @@
       },
       {
         "id": 6,
-        "name": "Durable Camping Rope",
+        "name": "Camera",
         "images": [
-          "rope_image1.jpg",
-          "rope_image2.jpg",
-          "rope_image3.jpg",
-          "rope_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-3-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-7-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-8-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-9-300x300.jpg"
         ],
-        "price": 14.99,
-        "review": 4.3,
-        "description": "Secure your campsite with this strong and durable camping rope. Essential for various outdoor activities.",
-        "sku": "6",
-        "category": "Camping",
-        "tags": ["rope", "camping", "outdoor"],
-        "weight": "0.8kg",
+        "price": 299.99,
+        "review": 4.9,
+        "description": "Capture your travel memories in stunning detail with this high-resolution travel camera. Lightweight and feature-packed.",
+        "sku": "21",
+        "category": "Electronics",
+        "tags": ["camera", "photography", "travel"],
+        "weight": "0.5kg",
         "dimensions": {
-          "length": 50,
-          "width": 1,
-          "height": 1
+          "length": 4,
+          "width": 3,
+          "height": 6
         },
         "reviews": [
           {
-            "name": "OutdoorEnthusiast789",
-            "rating": 4,
-            "date": "October 20, 2023",
-            "description": "Reliable and sturdy. Used it for various outdoor activities without any issues."
+            "name": "PhotoEnthusiast123",
+            "rating": 5,
+            "date": "December 12, 2023",
+            "description": "Impressive image quality and easy to carry. Perfect for capturing travel moments."
           }
         ]
       },
       {
         "id": 7,
-        "name": "Comfortable Flip-Flops",
+        "name": "Flip-Flops",
         "images": [
-          "flipflops_image1.jpg",
-          "flipflops_image2.jpg",
-          "flipflops_image3.jpg",
-          "flipflops_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-11-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-32-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-31-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-33-300x300.jpg"
         ],
         "price": 24.99,
         "review": 4.6,
@@ -224,12 +224,12 @@
       },
       {
         "id": 8,
-        "name": "Sun Protection Summer Hat",
+        "name": "Summer Hat",
         "images": [
-          "summerhat_image1.jpg",
-          "summerhat_image2.jpg",
-          "summerhat_image3.jpg",
-          "summerhat_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-9-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-25-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-26-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-27-300x300.jpg"
         ],
         "price": 19.99,
         "review": 4.4,
@@ -254,12 +254,12 @@
       },
       {
         "id": 9,
-        "name": "Stylish Travel Sunglasses",
+        "name": "Sunglasses",
         "images": [
-          "sunglasses_image1.jpg",
-          "sunglasses_image2.jpg",
-          "sunglasses_image3.jpg",
-          "sunglasses_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-8-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-24-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-23-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-22-300x300.jpg"
         ],
         "price": 29.99,
         "review": 4.7,
@@ -284,102 +284,120 @@
       },
       {
         "id": 10,
-        "name": "Multipurpose Travel Tool",
+        "name": "Skateboard",
         "images": [
-          "traveltool_image1.jpg",
-          "traveltool_image2.jpg",
-          "traveltool_image3.jpg",
-          "traveltool_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-14-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-42-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-41-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-40-300x300.jpg"
         ],
         "price": 34.99,
         "review": 4.3,
-        "description": "Be prepared for various situations with this versatile and compact multipurpose travel tool. A handy companion for any journey.",
+        "description": "Experience the thrill of skating with this high-quality skateboard. Perfect for riders of all levels, providing a smooth and exciting ride.",
         "sku": "10",
-        "category": "Tools",
-        "tags": ["travel-tool", "multipurpose", "adventure"],
-        "weight": "0.5kg",
+        "category": "Sports & Outdoors",
+        "tags": ["skateboard", "sports", "adventure"],
+        "weight": "2.5kg",
         "dimensions": {
-          "length": 8,
-          "width": 4,
-          "height": 1
+          "length": 31,
+          "width": 8,
+          "height": 4
         },
         "reviews": [
           {
-            "name": "HandyExplorer789",
+            "name": "SkaterPro456",
+            "rating": 4.5,
+            "date": "December 10, 2023",
+            "description": "Excellent skateboard for both beginners and experienced riders. Sturdy construction and smooth ride."
+          },
+          {
+            "name": "ThrillSeeker789",
             "rating": 4,
-            "date": "November 2, 2023",
-            "description": "Compact and useful. I take it with me on every trip."
+            "date": "December 15, 2023",
+            "description": "Provides an adrenaline-pumping experience. Great for cruising and performing tricks."
           }
         ]
-      },
+      },      
       {
         "id": 11,
-        "name": "Versatile Travel Organizer",
+        "name": "Star",
         "images": [
-          "organizer_image1.jpg",
-          "organizer_image2.jpg",
-          "organizer_image3.jpg",
-          "organizer_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-10-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-28-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-29-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-30-300x300.jpg"
         ],
-        "price": 29.99,
-        "review": 4.6,
-        "description": "Keep your travel essentials organized with this versatile and compact travel organizer. Multiple compartments for efficient storage.",
-        "sku": "11",
-        "category": "Accessories",
-        "tags": ["organizer", "travel", "storage"],
-        "weight": "0.3kg",
+        "price": 59.99,
+        "review": 4.7,
+        "description": "Enhance your beach-themed decor with this set of decorative starfish. Perfect for adding a touch of coastal charm to any room.",
+        "sku": "5",
+        "category": "Home & Decor",
+        "tags": ["starfish", "decor", "coastal"],
+        "weight": "0.2kg",
         "dimensions": {
-          "length": 9,
-          "width": 5,
-          "height": 2
+          "length": 6,
+          "width": 6,
+          "height": 8
         },
         "reviews": [
           {
-            "name": "OrganizedTraveler456",
+            "name": "Stargazer123",
             "rating": 5,
-            "date": "November 5, 2023",
-            "description": "A game-changer for staying organized while on the move. Love it!"
+            "date": "January 5, 2024",
+            "description": "Absolutely stunning! The star projections create a magical atmosphere. Perfect for winding down before bedtime."
+          },
+          {
+            "name": "HomeAmbiance456",
+            "rating": 4.5,
+            "date": "January 8, 2024",
+            "description": "Love the calming effect it brings to my room. A unique and beautiful addition to my home decor."
           }
         ]
-      },
+      },      
       {
         "id": 12,
-        "name": "Outdoor Adventure Knife",
+        "name": "Skis",
         "images": [
-          "knife_image1.jpg",
-          "knife_image2.jpg",
-          "knife_image3.jpg",
-          "knife_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-2-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-6-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-5-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-4-300x300.jpg"
         ],
-        "price": 44.99,
-        "review": 4.2,
-        "description": "Be prepared for outdoor adventures with this durable and versatile adventure knife. Essential for camping and hiking.",
+        "price": 199.99,
+        "review": 4.9,
+        "description": "Hit the slopes with these high-performance skis designed for ultimate speed and control. Ideal for both beginners and experienced skiers.",
         "sku": "12",
-        "category": "Tools",
-        "tags": ["knife", "outdoor", "adventure"],
-        "weight": "0.6kg",
+        "category": "Sports & Outdoors",
+        "tags": ["skis", "winter-sports", "adventure"],
+        "weight": "2.8kg",
         "dimensions": {
-          "length": 7,
-          "width": 1,
-          "height": 1
+          "length": 170,
+          "width": 12,
+          "height": 5
         },
         "reviews": [
           {
-            "name": "AdventureSurvivor789",
-            "rating": 4,
-            "date": "November 8, 2023",
-            "description": "Sharp and reliable. Used it during my camping trip, and it performed exceptionally well."
+            "name": "SkiEnthusiast123",
+            "rating": 5,
+            "date": "February 20, 2024",
+            "description": "Incredible skis! They provide excellent stability and control. Perfect for carving down the slopes."
+          },
+          {
+            "name": "WinterExplorer456",
+            "rating": 4.8,
+            "date": "February 25, 2024",
+            "description": "Great for both powder and groomed runs. These skis exceeded my expectations. Highly recommended!"
           }
         ]
-      },
+      },      
       {
         "id": 13,
-        "name": "Compact Sleeping Bag",
+        "name": "Sleeping Bag",
         "images": [
-          "sleepingbag_image1.jpg",
-          "sleepingbag_image2.jpg",
-          "sleepingbag_image3.jpg",
-          "sleepingbag_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-15-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-45-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-44-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-43-300x300.jpg"
         ],
         "price": 69.99,
         "review": 4.8,
@@ -410,12 +428,12 @@
       },
       {
         "id": 14,
-        "name": "Quick-Dry Travel Towel",
+        "name": "Towel",
         "images": [
-          "towel_image1.jpg",
-          "towel_image2.jpg",
-          "towel_image3.jpg",
-          "towel_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-5-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-15-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-14-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-13-300x300.jpg"
         ],
         "price": 14.99,
         "review": 4.4,
@@ -440,42 +458,42 @@
       },
       {
         "id": 15,
-        "name": "Durable Camping Cookware Set",
+        "name": "Water Bottle",
         "images": [
-          "cookware_image1.jpg",
-          "cookware_image2.jpg",
-          "cookware_image3.jpg",
-          "cookware_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-7-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-19-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-20-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-21-300x300.jpg"
         ],
-        "price": 49.99,
-        "review": 4.6,
-        "description": "Prepare delicious meals in the great outdoors with this durable and compact camping cookware set. Lightweight and easy to clean.",
-        "sku": "15",
-        "category": "Camping",
-        "tags": ["cookware", "camping", "outdoor"],
-        "weight": "1.2kg",
+        "price": 12.99,
+        "review": 4.5,
+        "description": "Stay hydrated on the go with this collapsible and reusable water bottle. Convenient and eco-friendly.",
+        "sku": "18",
+        "category": "Accessories",
+        "tags": ["water-bottle", "hydration", "travel"],
+        "weight": "0.2kg",
         "dimensions": {
-          "length": 10,
-          "width": 7,
-          "height": 5
+          "length": 5,
+          "width": 3,
+          "height": 10
         },
         "reviews": [
           {
-            "name": "OutdoorChef123",
+            "name": "HydrationMaster789",
             "rating": 5,
-            "date": "November 22, 2023",
-            "description": "High-quality cookware set. Made cooking in the wilderness a breeze."
+            "date": "November 30, 2023",
+            "description": "Compact and leak-proof. Perfect for staying hydrated during outdoor activities."
           }
         ]
-      },
+      },   
       {
         "id": 16,
-        "name": "Adventure-Ready First Aid Kit",
+        "name": "First Aid Kit",
         "images": [
-          "firstaidkit_image1.jpg",
-          "firstaidkit_image2.jpg",
-          "firstaidkit_image3.jpg",
-          "firstaidkit_image4.jpg"
+          "https://images.unsplash.com/photo-1563260324-5ebeedc8af7c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://media.istockphoto.com/id/473264734/photo/first-aid-kit.webp?s=170667a&w=0&k=20&c=CVcEfpHMvb0zdLeZe6Pq59yHg1JVfly0HhhhwrIHUuE=",
+          "https://media.istockphoto.com/id/625774258/photo/first-aid-box.webp?s=170667a&w=0&k=20&c=y9RSjaupxIRTFB3kqG6-D4IBbTQC2-zTmT2NBwmq8FQ=",
+          "https://media.istockphoto.com/id/186680370/photo/first-aid-kit.webp?s=170667a&w=0&k=20&c=xpZSqqK43FgQXA0YPqiFK7eyxc_UHFUTmGcSZuBdrAo="
         ],
         "price": 29.99,
         "review": 4.7,
@@ -500,72 +518,78 @@
       },
       {
         "id": 17,
-        "name": "Adjustable Travel Hammock",
+        "name": "Compass",
         "images": [
-          "hammock_image1.jpg",
-          "hammock_image2.jpg",
-          "hammock_image3.jpg",
-          "hammock_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-6-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-18-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-17-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-16-300x300.jpg"
         ],
-        "price": 39.99,
-        "review": 4.3,
-        "description": "Relax in style with this adjustable and lightweight travel hammock. Easy to set up and perfect for outdoor lounging.",
-        "sku": "17",
-        "category": "Camping",
-        "tags": ["hammock", "travel", "relaxation"],
-        "weight": "0.7kg",
+        "price": 19.99,
+        "review": 4.5,
+        "description": "Navigate with confidence using this premium travel compass. Durable construction and accurate directional readings.",
+        "sku": "20",
+        "category": "Tools",
+        "tags": ["compass", "navigation", "travel"],
+        "weight": "0.2kg",
         "dimensions": {
-          "length": 10,
-          "width": 5,
-          "height": 3
+          "length": 5,
+          "width": 1,
+          "height": 1
         },
         "reviews": [
           {
-            "name": "RelaxationMaster456",
-            "rating": 4,
-            "date": "November 28, 2023",
-            "description": "Comfortable and easy to carry. Perfect for unwinding after a day of adventure."
+            "name": "DirectionExplorer456",
+            "rating": 4.5,
+            "date": "December 8, 2023",
+            "description": "Accurate and easy to use. A reliable companion for any outdoor adventure."
           }
         ]
       },
       {
         "id": 18,
-        "name": "Collapsible Water Bottle",
+        "name": "Elegant Dress",
         "images": [
-          "waterbottle_image1.jpg",
-          "waterbottle_image2.jpg",
-          "waterbottle_image3.jpg",
-          "waterbottle_image4.jpg"
+          "https://images.unsplash.com/photo-1550639525-c97d455acf70?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1550639524-a6f58345a2ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "https://images.unsplash.com/photo-1550639524-39ef65e52515?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+          "https://images.unsplash.com/photo-1551377293-9a32f32c11b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D"
         ],
-        "price": 12.99,
-        "review": 4.5,
-        "description": "Stay hydrated on the go with this collapsible and reusable water bottle. Convenient and eco-friendly.",
-        "sku": "18",
-        "category": "Accessories",
-        "tags": ["water-bottle", "hydration", "travel"],
-        "weight": "0.2kg",
+        "price": 89.99,
+        "review": 4.7,
+        "description": "Make a statement at your special event with this elegant evening dress. A perfect blend of style and sophistication for a glamorous look.",
+        "sku": "15",
+        "category": "Fashion",
+        "tags": ["dress", "evening-wear", "formal"],
+        "weight": "0.5kg",
         "dimensions": {
-          "length": 5,
-          "width": 3,
-          "height": 10
+          "length": 40,
+          "width": 30,
+          "height": 5
         },
         "reviews": [
           {
-            "name": "HydrationMaster789",
+            "name": "Fashionista123",
             "rating": 5,
-            "date": "November 30, 2023",
-            "description": "Compact and leak-proof. Perfect for staying hydrated during outdoor activities."
+            "date": "March 5, 2024",
+            "description": "Absolutely stunning dress! The fit is perfect, and the quality is outstanding. Received many compliments."
+          },
+          {
+            "name": "GlamourSeeker456",
+            "rating": 4.5,
+            "date": "March 8, 2024",
+            "description": "Wore this dress to a formal event, and it was a showstopper. Comfortable and elegant. Highly recommended!"
           }
         ]
-      },
+      },   
       {
         "id": 19,
-        "name": "Modern Explorer Hat",
+        "name": "Modern Hat",
         "images": [
-          "modernhat_image1.jpg",
-          "modernhat_image2.jpg",
-          "modernhat_image3.jpg",
-          "modernhat_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-1-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-3-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-2-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-1-300x300.jpg"
         ],
         "price": 29.99,
         "review": 4.8,
@@ -590,63 +614,62 @@
       },
       {
         "id": 20,
-        "name": "Premium Travel Compass",
+        "name": "Travel Hammock",
         "images": [
-          "compass_image1.jpg",
-          "compass_image2.jpg",
-          "compass_image3.jpg",
-          "compass_image4.jpg"
+          "https://images.unsplash.com/photo-1540280369237-dea08361593a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1573209580826-13bdfd6db7e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
+          "https://media.istockphoto.com/id/1440279138/photo/lonely-hammock-at-dreamy-white-beach-between-palm-trees.webp?s=170667a&w=0&k=20&c=0BBRETAFw8FWtlq4SiIMV1HgJTjRSZserAhqoW7cTQc=",
+          "https://media.istockphoto.com/id/1157272926/photo/hammock-on-anse-baleine-mahe-island-seychelles.webp?s=170667a&w=0&k=20&c=lwYIBuWoWhg2N-hEsH087o5iWx_UBbW4wLcNPpL-oI0="
         ],
-        "price": 19.99,
-        "review": 4.5,
-        "description": "Navigate with confidence using this premium travel compass. Durable construction and accurate directional readings.",
-        "sku": "20",
-        "category": "Tools",
-        "tags": ["compass", "navigation", "travel"],
-        "weight": "0.2kg",
+        "price": 39.99,
+        "review": 4.3,
+        "description": "Relax in style with this adjustable and lightweight travel hammock. Easy to set up and perfect for outdoor lounging.",
+        "sku": "17",
+        "category": "Camping",
+        "tags": ["hammock", "travel", "relaxation"],
+        "weight": "0.7kg",
         "dimensions": {
-          "length": 5,
-          "width": 1,
-          "height": 1
+          "length": 10,
+          "width": 5,
+          "height": 3
         },
         "reviews": [
           {
-            "name": "DirectionExplorer456",
-            "rating": 4.5,
-            "date": "December 8, 2023",
-            "description": "Accurate and easy to use. A reliable companion for any outdoor adventure."
+            "name": "RelaxationMaster456",
+            "rating": 4,
+            "date": "November 28, 2023",
+            "description": "Comfortable and easy to carry. Perfect for unwinding after a day of adventure."
           }
         ]
       },
       {
         "id": 21,
-        "name": "High-Resolution Travel Camera",
+        "name": "Rope",
         "images": [
-          "camera_image1.jpg",
-          "camera_image2.jpg",
-          "camera_image3.jpg",
-          "camera_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-12-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-34-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-35-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-36-300x300.jpg"
         ],
-        "price": 299.99,
-        "review": 4.9,
-        "description": "Capture your travel memories in stunning detail with this high-resolution travel camera. Lightweight and feature-packed.",
-        "sku": "21",
-        "category": "Electronics",
-        "tags": ["camera", "photography", "travel"],
-        "weight": "0.5kg",
+        "price": 14.99,
+        "review": 4.3,
+        "description": "Secure your campsite with this strong and durable camping rope. Essential for various outdoor activities.",
+        "sku": "6",
+        "category": "Camping",
+        "tags": ["rope", "camping", "outdoor"],
+        "weight": "0.8kg",
         "dimensions": {
-          "length": 4,
-          "width": 3,
-          "height": 6
+          "length": 50,
+          "width": 1,
+          "height": 1
         },
         "reviews": [
           {
-            "name": "PhotoEnthusiast123",
-            "rating": 5,
-            "date": "December 12, 2023",
-            "description": "Impressive image quality and easy to carry. Perfect for capturing travel moments."
+            "name": "OutdoorEnthusiast789",
+            "rating": 4,
+            "date": "October 20, 2023",
+            "description": "Reliable and sturdy. Used it for various outdoor activities without any issues."
           }
         ]
       }
     ]
-}

@@ -29,7 +29,7 @@ const HolidayCart = () => {
           <h2 className="text-3xl font-bold mb-4">{country.countryName}</h2>
           <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-8">
             {country.states.map((state, stateIndex) => (
-              <a key={state.name} href="#" className={`group relative block overflow-hidden w-full ${stateIndex === 0 && (countryIndex === 0 || countryIndex === 2) ? 'rounded-full' : ''}`}>
+              <a key={stateIndex} href="#" className={`group relative block overflow-hidden w-full ${stateIndex === 0 && (countryIndex === 0 || countryIndex === 2) ? 'rounded-full' : ''}`}>
                 <article className="relative overflow-hidden transition hover:shadow-lg">
                   {stateIndex === 0 ? (
                      <>
