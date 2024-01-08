@@ -75,7 +75,6 @@ const PackUp = () => {
                     alt={state.name}
                     className="h-64 w-full object-cover transition duration-500 hover:scale-105 sm:h-72 cursor-pointer"
                     />
-                    
                 </div>
                 </div>
                 ))}
