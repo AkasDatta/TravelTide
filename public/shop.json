@@ -4,10 +4,10 @@
         "id": 1,
         "name": "Portable Camping Lamp",
         "images": [
-          "lamp_image1.jpg",
-          "lamp_image2.jpg",
-          "lamp_image3.jpg",
-          "lamp_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-13-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-39-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-38-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-37-300x300.jpg"
         ],
         "price": 39.99,
         "review": 4.5,
@@ -34,10 +34,10 @@
         "id": 2,
         "name": "Traveler's Backpack",
         "images": [
-          "backpack_image1.jpg",
-          "backpack_image2.jpg",
-          "backpack_image3.jpg",
-          "backpack_image4.jpg"
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-img-15-768x672.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-45-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-44-300x300.jpg",
+          "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/shop-1-gallery-43-300x300.jpg"
         ],
         "price": 79.99,
         "review": 4.2,
