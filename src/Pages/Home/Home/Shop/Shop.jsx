@@ -15,14 +15,14 @@ const Shop = () => {
 
     return (
         <div className="">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:py-28 lg:py-28 md:py-28 pt-28">
+            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4 xl:pb-28 lg:pb-28 md:pb-28 pb-28">
                 <div className="text-center">
-                    <p className='mt-4 text-lg text-gray-700 my-6'>CANDLES & DIFFUSERS</p>
+                    <p className='mt-4 text-lg text-gray-700 my-2'>CANDLES & DIFFUSERS</p>
                     <h2 className="text-5xl font-bold text-gray-900">TRADITION OF QUALITY </h2>       
                 </div> 
-                <a href="#" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 cursor-pointer gap-8 lg:pl-8 pl-4">
+                <a href="#" className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 cursor-pointer gap-4 lg:pl-16 pl-4">
                     {sliceProduct.map((product, index) => (   
-                            <article className="flex mt-8" key={index}>
+                            <article className="flex mt-20" key={index}>
                                 <div className="">
                                     <img
                                     alt="Guitar"
@@ -41,10 +41,10 @@ const Shop = () => {
                                     </div>
 
                                     <p className="mt-2 line-clamp-3 text-md/relaxed">
-                                        <span className="text-gray-600 hover:text-black duration-500">HandMade</span>, <span className="text-gray-600 hover:text-black duration-500">Summer</span>, <span className="text-gray-600 hover:text-black duration-500">Windy</span>
+                                        <span className="text-gray-600 hover:text-black duration-500">{product.tags[0]}</span>, <span className="text-gray-600 hover:text-black duration-500">{product.tags[1]}</span>, <span className="text-gray-600 hover:text-black duration-500">{product.tags[2]}</span>
                                     </p>
                                     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-900">
-                                        55.00$
+                                        {product.price}$
                                     </p>
                                     </div>
                                 </div>
