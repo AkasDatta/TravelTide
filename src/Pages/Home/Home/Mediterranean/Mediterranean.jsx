@@ -32,7 +32,7 @@ const Mediterranean = () => {
                         <img
                         alt="Office"
                         src={state.image}
-                        className="absolute inset-0 h-full w-full object-cover transition duration-1000 hover:scale-105"
+                        className="absolute inset-0  h-full w-full object-cover transition duration-1000 hover:scale-105"
                         />
 
                         <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-60 sm:pt-72 lg:pt-96">
